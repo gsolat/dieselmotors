@@ -91,114 +91,15 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 800px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 120px;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 44px;
-    max-width: 350px;
-  }
-  #info-group p {
-    font-size: 3.000em;
-    font-weight: 400;
-    text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-right: 33px;
-    margin-bottom: 33px;
-  }
-  #mail-phone {
-    padding: 12px;
-    vertical-align: middle;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 21px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.750em;
-    font-weight: 200;
-    color: #5EC097;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone a:hover {
-    font-family: 'Ubuntu', sans-serif;
-    color: #F7966D;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-    padding: 5px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #main-menu img {
-    max-width: 150px;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 100px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:100px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.175em;
-    line-height: 1.5;
-  }
 }
 
 /* ---- MEDIUM SCREENS - STANDARD ---- */
 @media (min-width: 992px) and (max-width: 1200px) {
   #home {
-    color: #333333;
-    height: 600px;
+    color: #000;
+    height: 800px;
     margin-top: 0;
     background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
     z-index: 10;
     overflow: hidden;
   }
@@ -215,143 +116,69 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-  #text-box {
-    margin: 120px 0;
+  nav .navbar-right .navbar-link i:hover {
+    color: #F7966D;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
   }
-  #logo-box p {
+  #text-box {
+    margin: 150px 0;
+  }
+  #home-page p {
     margin-top: 11px;
     margin-bottom: 13px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 3.300em;
+    font-size: 1.800em;
+    font-style: italic;
     line-height: double;
   }
-  #logo-box #more a {
-    color: #333333;
-    text-decoration: underline;
-    font-style: italic;
+  #home-page #nav {
+    float: left;
+    margin-top: 80px;
   }
-  #logo-box #nav {
-    margin-top: 21px;
+  #home-page #nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #939598;
     text-align: center;
-  }
-  #logo-box #nav a {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-    color: #fff;
-    font-size: 1.350em;
-    letter-spacing: 1px;
+    font-size: 1.950em;
     text-decoration: none;
-    background-color: #54C899;
+    border: 2px solid #939598;
+    border-radius: 3px;
+    padding: 7px 15px;
     margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 768px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
+  #home-page #nav i {
+    margin-right: 15px ;
   }
-  #info-group {
-    margin-top: 150px;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 44px;
-    max-width: 350px;
-  }
-  #info-group p {
-    font-size: 3.000em;
+  #home-page #nav a:hover {
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: #fff;
+    background-color: #E85D3F;
     text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-right: 33px;
-    margin-bottom: 33px;
-  }
-  #mail-phone {
-    padding: 12px 0;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 21px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.750em;
-    font-weight: 200;
-    color: #5EC097;
+    font-size: 1.950em;
     text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone a:hover {
-    font-family: 'Ubuntu', sans-serif;
-    color: #F7966D;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 100px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:100px;
-    height: 550px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
+    border: 2px solid #E85D3F;
     border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.175em;
-    line-height: 1.5;
+    padding: 7px 15px;
+    margin-right: 7px;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
   }
 }
 
 /* ---- SMALL SCREENS - LANDSCAPE ---- */
 @media (min-width: 771px) and (max-width: 992px) {
   #home {
-    color: #333333;
-    height: 440px;
+    color: #000;
+    height: 800px;
     margin-top: 0;
     background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
     z-index: 10;
     overflow: hidden;
   }
@@ -368,127 +195,59 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-  #text-box {
-    margin: 20px 0;
+  nav .navbar-right .navbar-link i:hover {
+    color: #F7966D;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
   }
-  #logo-box p {
-    margin-top: 35px;
+  #text-box {
+    margin: 150px 0;
+  }
+  #home-page p {
+    margin-top: 11px;
     margin-bottom: 13px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 2.000em;
+    font-size: 1.800em;
+    font-style: italic;
     line-height: double;
   }
-  #logo-box #more a {
-    color: #333333;
-    text-decoration: underline;
-    font-style: italic;
+  #home-page #nav {
+    float: left;
+    margin-top: 80px;
   }
-  #logo-box #nav {
-    margin-top: 18px;
+  #home-page #nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #939598;
     text-align: center;
-  }
-  #logo-box #nav a {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-    color: #fff;
-    font-size: 1.350em;
-    letter-spacing: 1px;
+    font-size: 1.950em;
     text-decoration: none;
-    background-color: #54C899;
+    border: 2px solid #939598;
+    border-radius: 3px;
+    padding: 7px 15px;
     margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 435px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
+  #home-page #nav i {
+    margin-right: 15px ;
   }
-  #info-group {
-    margin-top: 40px;
-    margin-bottom: 0px;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 44px;
-    max-width: 250px;
-  }
-  #info-group p {
-    font-size: 2.000em;
+  #home-page #nav a:hover {
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: #fff;
+    background-color: #E85D3F;
     text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-right: 33px;
-    margin-bottom: 13px;
-  }
-  #mail-phone {
-    padding: 8px 0;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.500em;
-    font-weight: 200;
-    color: #5EC097;
+    font-size: 1.950em;
     text-decoration: none;
+    border: 2px solid #E85D3F;
+    border-radius: 3px;
+    padding: 7px 15px;
+    margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: 420px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
-    max-height: 380px;
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-size: 21px;
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.025em;
-    line-height: 1.5;
   }
 }
 
@@ -555,94 +314,6 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 1024px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 270px;
-    margin-bottom: 0px;
-    margin-left: 16.66666667%;
-    width: 66.66666667%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 44px;
-    max-width: 250px;
-  }
-  #info-group p {
-    font-size: 3.150em;
-    font-weight: 400;
-    text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 13px;
-  }
-  #mail-phone {
-    padding: 8px 0;
-
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.500em;
-    font-weight: 200;
-    color: #5EC097;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: 470px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.025em;
-    line-height: 1.5;
-  }
 }
 
 /* ---- IPHONE 6 PLUS - LANDSCAPE (735-760)---- */
@@ -708,105 +379,15 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 414px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: 16.66666667%;
-    width: 66.66666667%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 20px;
-    max-width: 200px;
-  }
-  #info-group p {
-    font-size: 2.050em;
-    font-weight: 400;
-    text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 13px;
-  }
-  #mail-phone {
-    padding: 8px 0;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.350em;
-    font-weight: 200;
-    color: #5EC097;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: 470px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.025em;
-    line-height: 1.5;
-  }
 }
 
 /* ---- IPHONE 6 - LANDSCAPE ---- */
 @media (min-width: 665px) and (max-width: 734px){
   #home {
-    color: #333333;
-    height: 400px;
+    color: #000;
+    height: 800px;
     margin-top: 0;
     background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
     z-index: 10;
     overflow: hidden;
   }
@@ -823,129 +404,59 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
+  nav .navbar-right .navbar-link i:hover {
+    color: #F7966D;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
+  }
   #text-box {
-    margin: 0;
+    margin: 150px 0;
   }
-  #logo-box {
-    margin-left: 16.66666667%;
-    width: 66.66666667%;
-  }
-  #logo-box p {
-    margin-top: 45px;
-    margin-bottom: 0px;
+  #home-page p {
+    margin-top: 11px;
+    margin-bottom: 13px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1.750em;
+    font-size: 1.800em;
+    font-style: italic;
     line-height: double;
   }
-  #logo-box #more a {
-    color: #333333;
-    text-decoration: underline;
-    font-style: italic;
+  #home-page #nav {
+    float: left;
+    margin-top: 80px;
   }
-  #logo-box #nav {
-    margin-top: 21px;
+  #home-page #nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #939598;
     text-align: center;
-  }
-  #logo-box #nav a {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-    color: #fff;
-    font-size: 1.350em;
-    letter-spacing: 1px;
+    font-size: 1.950em;
     text-decoration: none;
-    background-color: #54C899;
+    border: 2px solid #939598;
+    border-radius: 3px;
+    padding: 7px 15px;
     margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 375px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
+  #home-page #nav i {
+    margin-right: 15px ;
   }
-  #info-group {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: 16.66666667%;
-    width: 66.66666667%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 20px;
-    max-width: 200px;
-  }
-  #info-group p {
-    font-size: 1.650em;
+  #home-page #nav a:hover {
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: #fff;
+    background-color: #E85D3F;
     text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #mail-phone {
-    padding: 3px 0;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 8px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.300em;
-    font-weight: 200;
-    color: #5EC097;
+    font-size: 1.950em;
     text-decoration: none;
+    border: 2px solid #E85D3F;
+    border-radius: 3px;
+    padding: 7px 15px;
+    margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: 470px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-size: 24px;
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 0.950em;
-    line-height: 1.5;
   }
 }
 
@@ -1012,106 +523,15 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 320px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: 16.66666667%;
-    width: 66.66666667%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 20px;
-    max-width: 200px;
-  }
-  #info-group p {
-    font-size: 1.650em;
-    font-weight: 400;
-    text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #mail-phone {
-    padding: 3px 0;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 8px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.050em;
-    font-weight: 200;
-    color: #5EC097;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 18px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: 370px;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item a:hover {
-    text-decoration: none;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text h2 {
-    font-size: 21px;
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 0.750em;
-    line-height: 1.5;
-  }
 }
 
 /* ---- LARGE PHONE - PORTRAIT ---- */
 @media (min-width: 380px) and (max-width: 439px){
   #home {
-    color: #333333;
-    height: 773px;
+    color: #000;
+    height: 660px;
     margin-top: 0;
     background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
     z-index: 10;
     overflow: hidden;
   }
@@ -1128,142 +548,54 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-  #text-box {
-    margin: 180px 0;
+  nav .navbar-right .navbar-link i:hover {
+    color: #F7966D;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
   }
-  #logo-box p {
+  #text-box {
+    margin: 200px 0;
+  }
+  #home-page p {
     margin-top: 11px;
     margin-bottom: 13px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 2.000em;
+    font-size: 1.800em;
+    font-style: italic;
     line-height: double;
   }
-  #logo-box #more a {
-    color: #333333;
-    text-decoration: underline;
-    font-style: italic;
-  }
-  #logo-box #nav {
-    margin-top: 21px;
+  #home-page #nav {
     text-align: center;
+    margin-top: 30px;
   }
-  #logo-box #nav a {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-    color: #fff;
-    font-size: 1.500em;
-    letter-spacing: 1px;
+  #home-page #nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #939598;
+    text-align: center;
+    font-size: 1.150em;
     text-decoration: none;
-    background-color: #54C899;
+    border: 1px solid #939598;
+    border-radius: 3px;
+    padding: 4px 10px;
     margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 773px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 200px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 30px;
-    max-width: 350px;
-  }
-  #info-group p {
-    font-size: 2.000em;
-    font-weight: 400;
-    text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 13px;
-  }
-  #mail-phone {
-    padding: 8px 0;
-
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.100em;
-    font-weight: 200;
-    color: #5EC097;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 12px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: auto;;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item #item-pic {
-    width: 100%;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text {
-    width: 100%;
-  }
-  #portafolio-item #item-text h2 {
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.025em;
-    line-height: 1.5;
+  #home-page #nav i {
+    margin-right: 10px ;
   }
 }
 
 /* ---- MEDIUM PHONE - PORTRAIT (350-379)---- */
 @media (min-width: 350px) and (max-width: 379px){
   #home {
-    color: #333333;
-    height: 680px;
+    color: #000;
+    height: 660px;
     margin-top: 0;
     background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
     z-index: 10;
     overflow: hidden;
   }
@@ -1280,141 +612,54 @@ body {
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-  #text-box {
-    margin: 135px 0;
+  nav .navbar-right .navbar-link i:hover {
+    color: #F7966D;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
   }
-  #logo-box p {
+  #text-box {
+    margin: 200px 0;
+  }
+  #home-page p {
     margin-top: 11px;
     margin-bottom: 13px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 2.000em;
+    font-size: 1.800em;
+    font-style: italic;
     line-height: double;
   }
-  #logo-box #more a {
-    color: #333333;
-    text-decoration: underline;
-    font-style: italic;
-  }
-  #logo-box #nav {
-    margin-top: 21px;
+  #home-page #nav {
     text-align: center;
+    margin-top: 30px;
   }
-  #logo-box #nav a {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-    color: #fff;
-    font-size: 1.500em;
-    letter-spacing: 1px;
+  #home-page #nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #939598;
+    text-align: center;
+    font-size: 0.950em;
     text-decoration: none;
-    background-color: #54C899;
+    border: 1px solid #939598;
+    border-radius: 3px;
+    padding: 4px 10px;
     margin-right: 7px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 668px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 140px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 30px;
-    max-width: 350px;
-  }
-  #info-group p {
-    font-size: 2.000em;
-    font-weight: 400;
-    text-align: center;
-    line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 13px;
-  }
-  #mail-phone {
-    padding: 8px 0;
-  }
-  #info-group #mail-phone a {
-    margin-bottom: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.000em;
-    font-weight: 200;
-    color: #5EC097;
-    text-decoration: none;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #info-group #mail-phone i {
-    margin-right: 12px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: auto;;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item #item-pic {
-    width: 100%;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text {
-    width: 100%;
-  }
-  #portafolio-item #item-text h2 {
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 1.025em;
-    line-height: 1.5;
+  #home-page #nav i {
+    margin-right: 10px ;
   }
 }
 
 /* ---- SMALL PHONE - PORTRAIT (>-350)---- */
 @media (max-width: 349px){
   #home {
-    color: #333333;
-    height: 570px;
+    color: #000;
+    height: 568px;
     margin-top: 0;
     background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
     z-index: 10;
     overflow: hidden;
   }
@@ -1425,135 +670,48 @@ body {
     text-decoration: none;
   }
   nav .navbar-right .navbar-link i {
-    padding: 10px 0 10px 10px;
-    font-size: 21px;
+    padding: 20px 0 20px 20px;
+    font-size: 30px;
     color: #5EC097;
+    -webkit-transition-duration: .4s; /* Safari */
+    transition-duration: .4s;
+  }
+  nav .navbar-right .navbar-link i:hover {
+    color: #F7966D;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
   #text-box {
-    margin: 120px 0;
+    margin: 180px 0;
   }
-  #logo-box p {
+  #home-page p {
     margin-top: 11px;
     margin-bottom: 13px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1.500em;
-    line-height: double;
-  }
-  #logo-box #more a {
-    color: #333333;
-    text-decoration: underline;
+    font-size: 1.800em;
     font-style: italic;
-  }
-  #logo-box #nav {
-    margin-top: 0px;
-    text-align: center;
-  }
-  #logo-box #nav a {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-    color: #fff;
-    font-size: 0.850em;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background-color: #54C899;
-    margin-right: 7px;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-
-  /* --- CONTACT --- */
-  #contact-info {
-    color: #333333;
-    height: 658px;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-  }
-  #info-group {
-    margin-top: 230px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-  }
-  #info-group img{
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    padding-bottom: 30px;
-    max-width: 350px;
-  }
-  #info-group p {
-    font-size: 1.500em;
-    font-weight: 400;
-    text-align: center;
     line-height: double;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 13px;
   }
-  #mail-phone {
-    padding: 8px 0 0 0;
+  #home-page #nav {
+    text-align: center;
+    margin-top: 30px;
   }
-  #info-group #mail-phone a {
-    margin-bottom: 12px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 0.850em;
-    font-weight: 200;
-    color: #5EC097;
+  #home-page #nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #939598;
+    text-align: center;
+    font-size: 0.750em;
     text-decoration: none;
+    border: 1px solid #939598;
+    border-radius: 3px;
+    padding: 4px 10px;
     -webkit-transition-duration: .4s; /* Safari */
     transition-duration: .4s;
   }
-  #info-group #mail-phone i {
-    margin-right: 10px;
-  }
-
-  /* --- PORTFOLIO --- */
-  #main-menu {
-    background-color: #fff;
-    border-bottom: none;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  #portafolio {
-    height: auto;
-    padding-top: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #505050;
-    margin-bottom: 20px;
-  }
-  #portafolio-item {
-    margin-bottom:30px;
-    height: auto;;
-  }
-  #portafolio-item a {
-    color: #333;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  #portafolio-item #item-pic {
-    width: 100%;
-  }
-  #portafolio-item #item-pic img {
-    border-radius: 3px;
-  }
-  #portafolio-item #item-text {
-    width: 100%;
-  }
-  #portafolio-item #item-text h2 {
-    font-size: 18px;
-    font-weight: bolder;
-  }
-  #portafolio-item #item-text h4 {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: lighter;
-  }
-  #portafolio-item #item-text p {
-    font-size: 0.850em;
-    line-height: 1.5;
+  #home-page #nav i {
+    margin-right: 10px ;
   }
 }
