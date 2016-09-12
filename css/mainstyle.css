@@ -1767,7 +1767,7 @@ body {
     text-align: center;
     font-size: 1.500em;
     text-decoration: none;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 3px;
     padding: 10px 18px;
     margin-right: 7px;
@@ -1918,7 +1918,7 @@ body {
   }
  #contact-info a {
    font-family: 'Lato', sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    color: #fff;
    background-color: rgba(204, 58, 39, 0.7);
    text-align: center;
@@ -1952,7 +1952,7 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     color: #000;
-    height: 630px;
+    height: 620px;
     margin-top: 0;
     z-index: 10;
     overflow: hidden;
@@ -1998,7 +1998,7 @@ body {
     text-align: center;
  }
   #home-page #nav {
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
   }
   #home-page #nav a {
@@ -2008,7 +2008,7 @@ body {
     text-align: center;
     font-size: 1.500em;
     text-decoration: none;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 3px;
     padding: 10px 18px;
     margin-right: 7px;
@@ -2160,7 +2160,7 @@ body {
   }
  #contact-info a {
    font-family: 'Lato', sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    color: #fff;
    background-color: rgba(204, 58, 39, 0.7);
    text-align: center;
@@ -2191,10 +2191,10 @@ body {
     background-image: url('../img/bg-dm-01.jpg');
     background-attachment: fixed;
     background-position: top center;
-    background-size: auto;
+    background-size:  cover;
     background-repeat: no-repeat;
     color: #000;
-    height: 540px;
+    height: 520px;
     margin-top: 0;
     z-index: 10;
     overflow: hidden;
@@ -2240,7 +2240,7 @@ body {
     text-align: center;
  }
   #home-page #nav {
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
   }
   #home-page #nav a {
@@ -2250,7 +2250,7 @@ body {
     text-align: center;
     font-size: 1.150em;
     text-decoration: none;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 3px;
     padding: 5px 9px;
     margin-right: 7px;
@@ -2402,13 +2402,13 @@ body {
   }
  #contact-info a {
    font-family: 'Lato', sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    color: #fff;
    background-color: rgba(204, 58, 39, 0.7);
    text-align: center;
    font-size: 1.000em;
    text-decoration: none;
-   border: 2px solid rgba(232, 93, 63, 0.1);
+   border: 1px solid rgba(232, 93, 63, 0.1);
    border-radius: 3px;
    padding: 10px 18px;
    -webkit-transition-duration: .4s; /* Safari */
@@ -2421,7 +2421,6 @@ body {
    font-weight: 400;
  }
  #contact-text p {
-   /*background-color: rgba(255, 255, 255, 0.5);;*/
    padding: 0 10px;
    border-radius: 5px;
  }
