@@ -1732,7 +1732,7 @@ body {
     transition-duration: .4s;
   }
   #text-box {
-    margin: 230px 0 0 0;
+    margin: 170px 0 0 0;
   }
   #home-page img {
    width: 75%;
@@ -1973,7 +1973,7 @@ body {
     transition-duration: .4s;
   }
   #text-box {
-    margin: 200px 0 0 0;
+    margin: 130px 0 0 0;
   }
   #home-page img {
    width: 75%;
@@ -2194,7 +2194,7 @@ body {
     background-size:  cover;
     background-repeat: no-repeat;
     color: #000;
-    height: 520px;
+    height: 530px;
     margin-top: 0;
     z-index: 10;
     overflow: hidden;
@@ -2215,7 +2215,7 @@ body {
     transition-duration: .4s;
   }
   #text-box {
-    margin: 150px 0 0 0;
+    margin: 100px 0 0 0;
   }
   #home-page img {
    width: 75%;
