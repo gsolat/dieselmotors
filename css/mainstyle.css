@@ -23,7 +23,7 @@ body {
   background-color: transparent;
 }
 .navbar ul {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .navbar.navbar-default .navbar-toggle {
   margin-top: 13px;
@@ -130,7 +130,7 @@ body {
     background-image: url('../img/bg-dm-01.jpg');
     background-attachment: fixed;
     background-position: top center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #000;
     height: 750px;
@@ -354,7 +354,7 @@ body {
    font-weight: 400;
  }
  #contact-text p {
-   font-weight: 200;
+   font-weight: 400;
    font-size: 1.350em;
  }
   #contact-info {
@@ -363,7 +363,7 @@ body {
     text-align: center;
   }
  #contact-info a {
-   font-weight: 300;
+   font-weight: 400;
    color: #fff;
    background-color: rgba(204, 58, 39, 1);
    text-align: center;
@@ -377,7 +377,7 @@ body {
    transition-duration: 400ms;
  }
  #contact-info a:hover {
-   font-weight: 300;
+   font-weight: 400;
    color: #fff;
    background-color: rgba(204, 58, 39, 0);
    text-align: center;
@@ -393,54 +393,92 @@ body {
  #contact-location {
    margin-top: 70px;
    margin-bottom: 50px;
-   font-weight: 200;
- }
- #contact-location .lnr {
-   font-size: 2.000em;
-   margin-top: 15px;
+   font-weight: 400;
+   font-family: 'Lato', sans-serif;
  }
  #contact-location p {
    font-size: 1.350em;
    text-align: left;
  }
-
-/* ---- PORTFOLIO ---- */
+ #contact-location i {
+   margin-top: 5px;
+   font-size: 1.650em;
+   padding-right: 0px;
+ }
+  /* ---- PORTFOLIO ---- */
 
           #portafolio {
             height: auto;
-            padding-top: 100px;
             font-family: 'Lato', sans-serif;
             color: #505050;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
+          }
+          .agro {
+            background-image: url('../img/bg-dm-02.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          .construction {
+            background-image: url('../img/bg-dm-05.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          .marine {
+            background-image: url('../img/bg-dm-03.jpg');
+            background-attachment: fixed;
+            background-size: cover;
           }
           #portafolio-item {
-            margin-bottom:100px;
-          }
-          #portafolio-item a {
-            color: #333;
-            font-weight: 500;
-            text-decoration: underline;
-          }
-          #portafolio-item a:hover {
-            text-decoration: none;
+            padding-top: 70px;
+            margin-bottom:0px;
           }
           #portafolio-item #item-pic img {
             border-radius: 3px;
           }
-          #portafolio-item #item-text h2 {
-            font-weight: bolder;
+          #portafolio-item #item-text {
+            text-align: center;
+            color: #000;
+            margin-bottom: 30px;
           }
-          #portafolio-item #item-text h4 {
+          #portafolio-item #item-text h2 {
             text-transform: uppercase;
-            font-weight: lighter;
+            font-weight: 700;
           }
           #portafolio-item #item-text p {
-            font-size: 1.175em;
+            font-size: 1.350em;
             line-height: 1.5;
           }
+          #portafolio-item #engine-reference {
+            margin-bottom: 100px;
+          }
+          #portafolio-item #engine-reference h3 {
+            font-weight: 700;
+          }
           #portafolio-item #engine-reference p {
-            font-size: 0.850em;
-
+            margin-top: 10px;
+            font-size: 0.900em;
+            line-height: 1.5;
+          }
+          #engine-reference .thumbnail {
+            border: none;
+            font-weight: 300;
+            padding: 0;
+          }
+          #engine-reference .thumbnail .caption {
+            padding-bottom: 13px;
+          }
+          #engine-reference .thumbnail .label-default {
+            background-color: #BDBEBF;
+            font-weight: 300;
+          }
+          #engine-reference .thumbnail .label-primary {
+            background-color: #595F68;
+            font-weight: 300;
+            margin-left: 5px;
+          }
+          #engine-reference .thumbnail .label-success {
+            font-weight: 300;
+            font-size: 1.000em;
           }
 }
 
