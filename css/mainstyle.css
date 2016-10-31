@@ -172,7 +172,6 @@ body {
  #home-page img {
    max-width: 30%;
    margin-left: 35%;
-   }
  }
   #home-page #nav {
     margin-top: 70px;
@@ -369,7 +368,7 @@ body {
    font-weight: 400;
  }
  #contact-text p {
-   font-weight: 400;
+   font-weight: 300;
    font-size: 1.350em;
  }
   #contact-info {
@@ -378,7 +377,7 @@ body {
     text-align: center;
   }
  #contact-info a {
-   font-weight: 400;
+   font-weight: 300;
    color: #fff;
    background-color: rgba(204, 58, 39, 1);
    text-align: center;
@@ -392,7 +391,7 @@ body {
    transition-duration: 400ms;
  }
  #contact-info a:hover {
-   font-weight: 400;
+   font-weight: 300;
    color: #fff;
    background-color: rgba(204, 58, 39, 0);
    text-align: center;
@@ -408,7 +407,7 @@ body {
  #contact-location {
    margin-top: 70px;
    margin-bottom: 50px;
-   font-weight: 400;
+   font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
@@ -417,7 +416,7 @@ body {
  }
  #contact-location i {
    margin-top: 5px;
-   font-size: 1.650em;
+   font-size: 1.250em;
    padding-right: 0px;
  }
   /* ---- PORTFOLIO ---- */
@@ -503,10 +502,10 @@ body {
     background-image: url('../img/bg-dm-01.jpg');
     background-attachment: fixed;
     background-position: top center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     color: #000;
-    height: 750px;
+    height: 710px;
     margin-top: 0;
     z-index: 10;
     overflow: hidden;
@@ -588,7 +587,7 @@ body {
    overflow: hidden;
  }
  #phrase-text {
-   margin-top: 180px;
+   margin-top: 130px;
    font-size: 2.000em;
    font-family: 'Lato', sans-serif;
    line-height: normal;
@@ -596,7 +595,7 @@ body {
    text-align: center;
  }
  #phrase-text b {
-   font-weight: 400;
+   font-weight: 300;
  }
  #phrase span {
    font-size: 1.500em;
@@ -604,7 +603,7 @@ body {
  #phrase-text p {
    padding: 10px;
    border-radius: 5px;
-   margin-bottom: 180px;
+   margin-bottom: 130px;
  }
 
  /* -- PHRASE 2 -- */
@@ -724,14 +723,14 @@ body {
    margin-bottom: 50px;
  }
  #contact-text span {
-   font-size: 1.500em;
+   font-size: 1.000em;
  }
  #contact-text b {
    font-weight: 400;
  }
  #contact-text p {
-   font-weight: 400;
-   font-size: 1.350em;
+   font-weight: 300;
+   font-size: 1.000em;
  }
   #contact-info {
     margin-top: 85px;
@@ -739,11 +738,11 @@ body {
     text-align: center;
   }
  #contact-info a {
-   font-weight: 400;
+   font-weight: 300;
    color: #fff;
    background-color: rgba(204, 58, 39, 1);
    text-align: center;
-   font-size: 1.500em;
+   font-size: 1.150em;
    text-decoration: none;
    border: 1px solid rgba(232, 93, 63, 0);
    border-radius: 3px;
@@ -753,7 +752,7 @@ body {
    transition-duration: 400ms;
  }
  #contact-info a:hover {
-   font-weight: 400;
+   font-weight: 300;
    color: #fff;
    background-color: rgba(204, 58, 39, 0);
    text-align: center;
@@ -769,16 +768,16 @@ body {
  #contact-location {
    margin-top: 70px;
    margin-bottom: 50px;
-   font-weight: 400;
+   font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 1.350em;
+   font-size: 1.000em;
    text-align: left;
  }
  #contact-location i {
    margin-top: 5px;
-   font-size: 1.650em;
+   font-size: 1.000em;
    padding-right: 0px;
  }
   /* ---- PORTFOLIO ---- */
@@ -858,8 +857,8 @@ body {
           }
 }
 
-/* ---- SMALL SCREENS - LANDSCAPE ---- */
-@media (min-width: 771px) and (max-width: 992px) {
+/* ---- tablet 768 ---- */
+@media (min-width: 768px) and (max-width: 992px) {
   #home {
     background-image: url('../img/bg-dm-01.jpg');
     background-attachment: fixed;
@@ -867,28 +866,13 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     color: #000;
-    height: 700px;
+    height: 900px;
     margin-top: 0;
     z-index: 10;
     overflow: hidden;
   }
-  nav .navbar-right .navbar-link a, a:hover, a {
-    text-decoration: none;
-  }
-  nav .navbar-right .navbar-link i {
-    padding: 20px 0 20px 20px;
-    font-size: 30px;
-    color: #5EC097;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  nav .navbar-right .navbar-link i:hover {
-    color: #F7966D;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
   #text-box {
-    margin: 160px 0 0 0;
+    margin: 270px 0 0 0;
   }
   #home-page p {
     margin-top: 11px;
@@ -903,50 +887,59 @@ body {
   #home-page h2 {
     color:#fff;
     font-family: 'Lato',sans-serif;
-    font-size: 2.500em;
+    font-size: 1.500em;
     font-style: italic;
     font-weight: 300;
     text-align: center;
  }
+ #home-page img {
+   max-width: 50%;
+   margin-left: 25%;
+ }
   #home-page #nav {
-    margin-top: 60px;
+    margin-top: 70px;
     text-align: center;
   }
   #home-page #nav a {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
     text-align: center;
     font-size: 1.500em;
     text-decoration: none;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 3px;
     padding: 10px 18px;
     margin-right: 7px;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
+    -webkit-transition-duration: 400s; /* Safari */
+    transition-duration: 400ms;
   }
   #home-page #nav i {
     margin-right: 15px ;
   }
   #home-page #nav a:hover {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    color: #000;
+    background-color: rgba(255, 255, 255, 1);
     text-align: center;
     font-size: 1.500em;
     text-decoration: none;
-    border: 2px solid rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
     border-radius: 3px;
     padding: 10px 18px;
     margin-right: 7px;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
+    -webkit-transition-duration: 400ms; /* Safari */
+    transition-duration: 400ms;
   }
 
  /* -- PHRASE -- */
  #phrase {
+   background-image: url('../img/bg-dm-04.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
    background-color: #000;
    color: #f1f1f1;
    height: auto;
@@ -955,15 +948,15 @@ body {
    overflow: hidden;
  }
  #phrase-text {
-   margin-top: 70px;
-   font-size: 2.500em;
+   margin-top: 130px;
+   font-size: 2.000em;
    font-family: 'Lato', sans-serif;
    line-height: normal;
    font-weight: 300;
    text-align: center;
  }
  #phrase-text b {
-   font-weight: 400;
+   font-weight: 300;
  }
  #phrase span {
    font-size: 1.500em;
@@ -971,76 +964,109 @@ body {
  #phrase-text p {
    padding: 10px;
    border-radius: 5px;
-   margin-bottom: 70px;
+   margin-bottom: 130px;
  }
 
  /* -- PHRASE 2 -- */
  #phrase-2 {
-   background-image: url('../img/bg-dm-02.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
+   background: #f1f1f1; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left top, #fff, #f1f1f1); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #fff, #f1f1f1); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #fff, #f1f1f1); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #fff, #f1f1f1); /* Standard syntax */
    color: #000;
-   height: 800px;
+   height: 700px;
    margin-top: 0;
    z-index: 10;
    overflow: hidden;
  }
  #phrase-2-text {
-   margin-top: 200px;
-   font-size: 4.500em;
+   margin-top: 220px;
    font-family: 'Lato', sans-serif;
    font-weight: 300;
    line-height: normal;
-   text-align: center;
+   text-align: left;
  }
- #phrase-2 span {
-   font-size: 1.500em;
+ #phrase-2-text .icon .lnr {
+   font-size: 9.000em;
  }
- #phrase-2-text b {
+ #phrase-2-text span b {
    font-weight: 400;
  }
- #phrase-2-text p {
-   /*background-color: rgba(255, 255, 255, 0.5);;*/
-   padding: 0 10px;
+ #phrase-2-text .text h2 {
+   font-size: 2.000em;
+   font-weight: 600;
+   margin-top: 5px;
+ }
+ #phrase-2-text .text p {
+   font-size: 1.150em;
    border-radius: 5px;
    margin-bottom: 100px;
  }
 
  /* -- PHRASE 3 -- */
  #phrase-3 {
-   background-image: url('../img/bg-dm-03.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: top;
-   background-repeat: no-repeat;
+   background: #f1f1f1; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left top, #f1f1f1, #fff); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #f1f1f1, #fff); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #f1f1f1, #fff); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #f1f1f1, #fff); /* Standard syntax */
    color: #000;
-   height: 800px;
+   height: 700px;
    margin-top: 0;
    z-index: 10;
    overflow: hidden;
  }
  #phrase-3-text {
-   margin-top: 180px;
-   font-size: 4.500em;
+   margin-top: 220px;
    font-family: 'Lato', sans-serif;
    font-weight: 300;
    line-height: normal;
-   text-align: center;
+   text-align: left;
  }
- #phrase-3 span {
-   font-size: 1.500em;
+ #phrase-3-text .lnr {
+   font-size: 9.000em;
  }
- #phrase-3-text b {
+ #phrase-3-text span b {
    font-weight: 400;
  }
- #phrase-3-text p {
-   /*background-color: rgba(255, 255, 255, 0.5);;*/
-   padding: 0 10px;
-   border-radius: 5px;
-   margin-bottom: 240px;
+ #phrase-3-text .text h2 {
+   font-size: 2.000em;
+   font-weight: 600;
+   margin-top: 5px;
  }
+ #phrase-3-text .text p {
+   font-size: 1.150em;
+   border-radius: 5px;
+   margin-bottom: 30px;
+ }
+ #phrase-3-text .text .icon {
+   font-size: 0.900em;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ #phrase-3-text .text a {
+   font-size: 1.000em;
+   text-decoration: none;
+   color: rgba(232, 93, 63, 1);
+   padding: 10px 13px;
+   border: 1px solid rgba(232, 93, 63, 1);
+   border-radius: 5px;
+   margin-bottom: 100px;
+   -webkit-transition-duration: 400ms; /* Safari */
+   transition-duration: 400ms;
+ }
+ #phrase-3-text .text a:hover {
+   background-color: rgba(232, 93, 63, 1);
+   color: #fff;
+   padding: 10px 13px;
+   border: 1px solid rgba(232, 93, 63, 1);
+   border-radius: 5px;
+   margin-bottom: 100px;
+   -webkit-transition-duration: 400ms; /* Safari */
+   transition-duration: 400ms;
+ }
+
 
  /* -- CONTACT -- */
  #contact {
@@ -1049,300 +1075,149 @@ body {
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
+   font-family: 'Lato', sans-serif;
    color: #fff;
-   height: auto;
    margin-top: 0;
    z-index: 10;
    overflow: hidden;
  }
  #contact-text {
-   margin-top: 160px;
-   margin-bottom: 20px;
-   font-size: 3.500em;
-   font-family: 'Lato', sans-serif;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
+   margin-top: 70px;
+   margin-bottom: 50px;
  }
  #contact-text span {
-   font-size: 1.500em;
+   font-size: 1.000em;
+ }
+ #contact-text b {
+   font-weight: 400;
+ }
+ #contact-text p {
+   font-weight: 300;
+   font-size: 0.850em;
  }
   #contact-info {
-    margin-top: 20px;
-    margin-bottom: 240px;
+    margin-top: 85px;
+    margin-bottom: 50px;
     text-align: center;
   }
  #contact-info a {
-   font-family: 'Lato', sans-serif;
    font-weight: 300;
    color: #fff;
-   background-color: rgba(204, 58, 39, 0.7);
+   background-color: rgba(204, 58, 39, 1);
    text-align: center;
-   font-size: 1.500em;
+   font-size: 1.000em;
    text-decoration: none;
-   border: 2px solid rgba(232, 93, 63, 0.1);
+   border: 1px solid rgba(232, 93, 63, 0);
    border-radius: 3px;
-   padding: 10px 18px;
+   padding: 10px 13px;
    margin-right: 7px;
-   -webkit-transition-duration: .4s; /* Safari */
-   transition-duration: .4s;
+   -webkit-transition-duration: 400ms; /* Safari */
+   transition-duration: 400ms;
  }
  #contact-info a:hover {
-   font-family: 'Lato', sans-serif;
    font-weight: 300;
    color: #fff;
    background-color: rgba(204, 58, 39, 0);
    text-align: center;
-   font-size: 1.500em;
+   font-size: 1.000em;
    text-decoration: none;
-   border: 2px solid rgba(232, 93, 63, 1);
+   border: 1px solid rgba(232, 93, 63, 1);
    border-radius: 3px;
-   padding: 10px 18px;
+   padding: 10px 13px;
    margin-right: 7px;
-   -webkit-transition-duration: .4s; /* Safari */
-   transition-duration: .4s;
+   -webkit-transition-duration: 400ms; /* Safari */
+   transition-duration: 400ms;
  }
- #contact-info span {
-   margin-right: 12px;
- }
- #contact-text b {
-   font-weight: 400;
- }
- #contact-text p {
-   /*background-color: rgba(255, 255, 255, 0.5);;*/
-   padding: 0 10px;
-   border-radius: 5px;
- }
-}
-
-/* ---- IPAD PORTRAIT ---- */
-@media (min-width: 767px) and (max-width: 770px){
-  #home {
-    background-image: url('../img/bg-dm-01.jpg');
-    background-attachment: fixed;
-    background-position: top center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    color: #000;
-    height: 950px;
-    margin-top: 0;
-    z-index: 10;
-    overflow: hidden;
-  }
-  nav .navbar-right .navbar-link a, a:hover, a {
-    text-decoration: none;
-  }
-  nav .navbar-right .navbar-link i {
-    padding: 20px 0 20px 20px;
-    font-size: 30px;
-    color: #5EC097;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  nav .navbar-right .navbar-link i:hover {
-    color: #F7966D;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #text-box {
-    margin: 280px 0 0 0;
-  }
-  #home-page p {
-    margin-top: 11px;
-    margin-bottom: 13px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 1.800em;
-    font-style: italic;
-    line-height: double;
-  }
-  #home-page h2 {
-    color:#fff;
-    font-family: 'Lato',sans-serif;
-    font-size: 2.300em;
-    font-style: italic;
-    font-weight: 300;
-    text-align: center;
- }
-  #home-page #nav {
-    margin-top: 60px;
-    text-align: center;
-  }
-  #home-page #nav a {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    font-size: 1.500em;
-    text-decoration: none;
-    border: 2px solid #fff;
-    border-radius: 3px;
-    padding: 10px 18px;
-    margin-right: 7px;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-  #home-page #nav i {
-    margin-right: 15px ;
-  }
-  #home-page #nav a:hover {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    font-size: 1.500em;
-    text-decoration: none;
-    border: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 3px;
-    padding: 10px 18px;
-    margin-right: 7px;
-    -webkit-transition-duration: .4s; /* Safari */
-    transition-duration: .4s;
-  }
-
- /* -- PHRASE -- */
- #phrase {
-   background-color: #000;
-   color: #f1f1f1;
-   height: auto;
-   margin-top: 0;
-   z-index: 10;
-   overflow: hidden;
- }
- #phrase-text {
+ #contact-location {
    margin-top: 70px;
-   font-size: 2.300em;
-   font-family: 'Lato', sans-serif;
-   line-height: normal;
-   font-weight: 300;
-   text-align: center;
- }
- #phrase-text b {
-   font-weight: 400;
- }
- #phrase span {
-   font-size: 1.500em;
- }
- #phrase-text p {
-   padding: 10px;
-   border-radius: 5px;
-   margin-bottom: 70px;
- }
-
- /* -- PHRASE 2 -- */
- #phrase-2 {
-   background-image: url('../img/bg-dm-02.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   color: #000;
-   height: 950px;
-   margin-top: 0;
-   z-index: 10;
-   overflow: hidden;
- }
- #phrase-2-text {
-   margin-top: 280px;
-   font-size: 4.000em;
-   font-family: 'Lato', sans-serif;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
- }
- #phrase-2 span {
-   font-size: 1.500em;
- }
- #phrase-2-text b {
-   font-weight: 400;
- }
- #phrase-2-text p {
-   padding: 0 10px;
-   border-radius: 5px;
-   margin-bottom: 100px;
- }
-
- /* -- PHRASE 3 -- */
- #phrase-3 {
-   background-image: url('../img/bg-dm-03.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: top;
-   background-repeat: no-repeat;
-   color: #000;
-   height: 950px;
-   margin-top: 0;
-   z-index: 10;
-   overflow: hidden;
- }
- #phrase-3-text {
-   margin-top: 260px;
-   font-size: 4.000em;
-   font-family: 'Lato', sans-serif;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
- }
- #phrase-3 span {
-   font-size: 1.500em;
- }
- #phrase-3-text b {
-   font-weight: 400;
- }
- #phrase-3-text p {
-   /*background-color: rgba(255, 255, 255, 0.5);;*/
-   padding: 0 10px;
-   border-radius: 5px;
-   margin-bottom: 240px;
- }
-
- /* -- CONTACT -- */
- #contact {
-   background-image: url('../img/bg-dm-04.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: top;
-   background-repeat: no-repeat;
-   color: #fff;
-   height: 850px;
-   margin-top: 0;
-   z-index: 10;
-   overflow: hidden;
-   text-align: center;
- }
- #contact-text {
-   margin-top: 170px;
- }
- #contact-text span {
-   font-size: 5.500em;
-   line-height: 1.5;
- }
- #contact-text p {
-   margin-bottom: 20px;
    margin-bottom: 50px;
-   font-size: 3.500em;
-   font-family: 'Lato', sans-serif;
    font-weight: 300;
-   line-height: normal;
- }
- #contact-info a {
    font-family: 'Lato', sans-serif;
-   font-weight: 300;
-   color: #fff;
-   background-color: rgba(204, 58, 39, 0.7);
-   font-size: 1.500em;
-   text-decoration: none;
-   border: 2px solid rgba(232, 93, 63, 0.1);
-   border-radius: 3px;
-   padding: 10px 18px;
-   -webkit-transition-duration: .4s; /* Safari */
-   transition-duration: .4s;
  }
- #contact-text b {
-   font-weight: 400;
+ #contact-location p {
+   font-size: 0.850em;
+   text-align: left;
  }
+ #contact-location i {
+   margin-top: 5px;
+   font-size: 0.850em;
+   padding-right: 0px;
+ }
+  /* ---- PORTFOLIO ---- */
+
+          #portafolio {
+            height: auto;
+            font-family: 'Lato', sans-serif;
+            color: #505050;
+            margin-bottom: 0px;
+          }
+          .agro {
+            background-image: url('../img/bg-dm-02.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          .construction {
+            background-image: url('../img/bg-dm-05.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          .marine {
+            background-image: url('../img/bg-dm-03.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          #portafolio-item {
+            padding-top: 70px;
+            margin-bottom:0px;
+          }
+          #portafolio-item #item-pic img {
+            border-radius: 3px;
+          }
+          #portafolio-item #item-text {
+            text-align: center;
+            color: #000;
+            margin-bottom: 30px;
+          }
+          #portafolio-item #item-text h2 {
+            text-transform: uppercase;
+            font-weight: 700;
+          }
+          #portafolio-item #item-text p {
+            font-size: 1.350em;
+            line-height: 1.5;
+          }
+          #portafolio-item #engine-reference {
+            margin-bottom: 100px;
+          }
+          #portafolio-item #engine-reference h3 {
+            font-weight: 700;
+          }
+          #portafolio-item #engine-reference p {
+            margin-top: 10px;
+            font-size: 0.900em;
+            line-height: 1.5;
+          }
+          #engine-reference .thumbnail {
+            border: none;
+            font-weight: 300;
+            padding: 0;
+          }
+          #engine-reference .thumbnail .caption {
+            padding-bottom: 13px;
+          }
+          #engine-reference .thumbnail .label-default {
+            background-color: #BDBEBF;
+            font-weight: 300;
+          }
+          #engine-reference .thumbnail .label-primary {
+            background-color: #595F68;
+            font-weight: 300;
+            margin-left: 5px;
+          }
+          #engine-reference .thumbnail .label-success {
+            font-weight: 300;
+            font-size: 1.000em;
+          }
 }
 
 /* ---- IPHONE 6 PLUS - LANDSCAPE (735-760)---- */
