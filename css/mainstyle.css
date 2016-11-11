@@ -54,7 +54,6 @@ body {
 
 @media (max-width: 767px) {
    .navbar-default {
-    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     max-width: 100px;
     text-align: left;
   }
@@ -532,8 +531,8 @@ body {
     text-align: center;
  }
  #home-page img {
-   max-width: 30%;
-   margin-left: 35%;
+   max-width: 40%;
+   margin-left: 30%;
  }
   #home-page #nav {
     margin-top: 70px;
@@ -1225,7 +1224,7 @@ body {
 /* ---- phone L landscape (IPhone6+)---- */
 @media (min-width: 735px) and (max-width: 767px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -1300,7 +1299,7 @@ body {
 
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -1561,7 +1560,7 @@ body {
 /* ---- phone M landscape (IPhone6)---- */
 @media (min-width: 665px) and (max-width: 735px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -1636,7 +1635,7 @@ body {
 
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -1897,7 +1896,7 @@ body {
 /* ---- phone S landscape (Iphone 5) ---- */
 @media (min-width: 440px) and (max-width: 664px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -1972,7 +1971,7 @@ body {
 
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2233,7 +2232,7 @@ body {
 /* ---- phone L / porttrait ---- */
 @media (min-width: 380px) and (max-width: 439px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-500.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -2292,7 +2291,7 @@ body {
   }
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2572,7 +2571,7 @@ body {
 /* ---- phone M / portrait ---- */
 @media (min-width: 350px) and (max-width: 379px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-500.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -2631,7 +2630,7 @@ body {
   }
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2908,10 +2907,10 @@ body {
           }
 }
 
-/* ---- SMALL PHONE - PORTRAIT (>-350)---- */
+/* ---- phone S / portrait ---- */
 @media (max-width: 349px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-500.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -2970,7 +2969,7 @@ body {
   }
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
