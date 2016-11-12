@@ -864,7 +864,7 @@ body {
 /* ---- tablet 768 ---- */
 @media (min-width: 768px) and (max-width: 992px) {
   #home {
-    background-image: url('../img/bg-dm-01.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -939,7 +939,7 @@ body {
 
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -1074,7 +1074,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -1156,17 +1156,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
@@ -1426,7 +1426,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -1494,17 +1494,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
@@ -1764,7 +1764,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -1832,17 +1832,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
@@ -1903,7 +1903,7 @@ body {
 /* ---- phone S landscape (Iphone 5) ---- */
 @media (min-width: 440px) and (max-width: 664px) {
   #home {
-    background-image: url('../img/bg-dm-01-800.jpg');
+    background-image: url('../img/bg-dm-01-500.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -1978,7 +1978,7 @@ body {
 
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04-800.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2100,7 +2100,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2168,17 +2168,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+            background-image: url('../img/bg-dm-05-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
@@ -2434,7 +2434,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2507,17 +2507,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
-          .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+          .constructio5 {
+            background-image: url('../img/bg-dm-05-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
@@ -2776,7 +2776,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -2849,17 +2849,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+            background-image: url('../img/bg-dm-05-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
@@ -3115,7 +3115,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04.jpg');
+   background-image: url('../img/bg-dm-04-500.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: top;
@@ -3188,17 +3188,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02.jpg');
+            background-image: url('../img/bg-dm-02-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .construction {
-            background-image: url('../img/bg-dm-05.jpg');
+            background-image: url('../img/bg-dm-05-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
           .marine {
-            background-image: url('../img/bg-dm-03.jpg');
+            background-image: url('../img/bg-dm-03-500.jpg');
             background-attachment: fixed;
             background-size: cover;
           }
