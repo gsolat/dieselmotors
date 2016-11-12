@@ -2997,7 +2997,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-color: #000;
-   background-size: cover;
+   background-size: contain;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -3133,7 +3133,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: contain;
    background-color: #000;
    background-attachment: fixed;
    background-position: top;
