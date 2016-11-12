@@ -575,7 +575,7 @@ body {
  /* -- PHRASE -- */
  #phrase {
    background-image: url('../img/bg-dm-04.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -710,7 +710,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -793,17 +793,17 @@ body {
           .agro {
             background-image: url('../img/bg-dm-02.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
             background-image: url('../img/bg-dm-05.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
             background-image: url('../img/bg-dm-03.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -940,7 +940,7 @@ body {
  /* -- PHRASE -- */
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1075,7 +1075,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1158,17 +1158,17 @@ body {
           .agro {
             background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
             background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
             background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -1305,7 +1305,7 @@ body {
  /* -- PHRASE -- */
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1427,7 +1427,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1496,17 +1496,17 @@ body {
           .agro {
             background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
             background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
             background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -1643,7 +1643,7 @@ body {
  /* -- PHRASE -- */
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1765,7 +1765,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1834,17 +1834,17 @@ body {
           .agro {
             background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
             background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
             background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -1979,7 +1979,7 @@ body {
  /* -- PHRASE -- */
  #phrase {
    background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2101,7 +2101,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2170,17 +2170,17 @@ body {
           .agro {
             background-image: url('../img/bg-dm-02-500.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
             background-image: url('../img/bg-dm-05-500.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
             background-image: url('../img/bg-dm-03-500.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -2239,7 +2239,7 @@ body {
 /* ---- phone L / porttrait ---- */
 @media (min-width: 380px) and (max-width: 439px) {
   #home {
-    background-image: url('../img/bg-dm-01-500.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -2298,8 +2298,8 @@ body {
   }
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-image: url('../img/bg-dm-04-800.jpg');
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2435,7 +2435,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2507,19 +2507,19 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02-500.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .constructio5 {
-            background-image: url('../img/bg-dm-05-500.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
-            background-image: url('../img/bg-dm-03-500.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -2581,7 +2581,7 @@ body {
 /* ---- phone M / portrait ---- */
 @media (min-width: 350px) and (max-width: 379px) {
   #home {
-    background-image: url('../img/bg-dm-01-500.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -2640,8 +2640,8 @@ body {
   }
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-image: url('../img/bg-dm-04-800.jpg');
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2777,7 +2777,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2849,19 +2849,19 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02-500.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
-            background-image: url('../img/bg-dm-05-500.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
-            background-image: url('../img/bg-dm-03-500.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
@@ -2920,7 +2920,7 @@ body {
 /* ---- phone S / portrait ---- */
 @media (max-width: 349px) {
   #home {
-    background-image: url('../img/bg-dm-01-500.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -2979,8 +2979,8 @@ body {
   }
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-image: url('../img/bg-dm-04-800.jpg');
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -3116,7 +3116,7 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-500.jpg');
-   background-size: cover;
+   background-size: auto;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -3188,19 +3188,19 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02-500.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .construction {
-            background-image: url('../img/bg-dm-05-500.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           .marine {
-            background-image: url('../img/bg-dm-03-500.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: cover;
+            background-size: auto;
           }
           #portafolio-item {
             padding-top: 70px;
