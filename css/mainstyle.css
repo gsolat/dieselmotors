@@ -213,6 +213,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04.jpg');
    background-size: cover;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -346,6 +347,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04.jpg');
    background-size: cover;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -576,6 +578,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -711,6 +714,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -941,6 +945,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1076,6 +1081,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1306,6 +1312,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1428,6 +1435,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1644,6 +1652,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1766,6 +1775,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -1980,6 +1990,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2102,6 +2113,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2300,6 +2312,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2436,6 +2449,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2642,6 +2656,7 @@ body {
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2778,6 +2793,7 @@ body {
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -2980,7 +2996,8 @@ body {
  /* -- PHRASE -- */
  #phrase {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: auto;
+   background-color: #000;
+   background-size: cover;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -3116,7 +3133,8 @@ body {
  /* -- CONTACT -- */
  #contact {
    background-image: url('../img/bg-dm-04-800.jpg');
-   background-size: auto;
+   background-size: cover;
+   background-color: #000;
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -3190,17 +3208,17 @@ body {
           .agro {
             background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
-            background-size: auto;
+            background-size: cover;
           }
           .construction {
             background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
-            background-size: auto;
+            background-size: cover;
           }
           .marine {
             background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
-            background-size: auto;
+            background-size: cover;
           }
           #portafolio-item {
             padding-top: 70px;
