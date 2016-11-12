@@ -1435,22 +1435,23 @@ body {
    overflow: hidden;
  }
  #contact-text {
-   margin-top: 40px;
-   margin-bottom: 30px;
- }
- #contact-text span {
-   font-size: 1.000em;
+   width: 70%;
+   margin-left: 15%;
+   margin-top: 35px;
+   margin-bottom: 0px;
  }
  #contact-text b {
    font-weight: 400;
  }
  #contact-text p {
    font-weight: 300;
-   font-size: 0.850em;
+   text-align: center;
+   font-size: 1.150em;
  }
   #contact-info {
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0px;
     text-align: center;
   }
  #contact-info a {
@@ -1458,30 +1459,39 @@ body {
    color: #fff;
    background-color: rgba(204, 58, 39, 1);
    text-align: center;
-   font-size: 1.000em;
+   font-size: 1.150em;
    text-decoration: none;
    border: 1px solid rgba(232, 93, 63, 0);
    border-radius: 3px;
-   padding: 10px 13px;
-   margin-right: 7px;
+   padding: 8px 14px;
    -webkit-transition-duration: 400ms; /* Safari */
    transition-duration: 400ms;
  }
  #contact-location {
-   margin-top: 40px;
-   margin-bottom: 30px;
+   margin-top: 30px;
+   width: 60%;
+   margin-left: 23%;
+   margin-bottom: 20px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
    font-size: 0.850em;
+   margin-top: 0px;
+   margin-bottom: 10px;
    text-align: left;
  }
- #contact-location i {
-   margin-top: 5px;
-   font-size: 0.850em;
+ #contact-location span {
+   width: 30px;
+ }
+ #contact-location span i {
+   font-size: 1.150em;
    padding-right: 0px;
  }
+ #contact-location #address {
+   width: auto;
+ }
+
   /* ---- PORTFOLIO ---- */
 
             #portafolio {
@@ -1774,22 +1784,23 @@ body {
    overflow: hidden;
  }
  #contact-text {
-   margin-top: 20px;
-   margin-bottom: 20px;
- }
- #contact-text span {
-   font-size: 1.000em;
+   width: 60%;
+   margin-left: 20%;
+   margin-top: 35px;
+   margin-bottom: 0px;
  }
  #contact-text b {
    font-weight: 400;
  }
  #contact-text p {
    font-weight: 300;
-   font-size: 0.750em;
+   text-align: center;
+   font-size: 1.150em;
  }
   #contact-info {
-    margin-top: 35px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0px;
     text-align: center;
   }
  #contact-info a {
@@ -1797,30 +1808,39 @@ body {
    color: #fff;
    background-color: rgba(204, 58, 39, 1);
    text-align: center;
-   font-size: 0.750em;
+   font-size: 1.150em;
    text-decoration: none;
    border: 1px solid rgba(232, 93, 63, 0);
    border-radius: 3px;
-   padding: 10px 13px;
-   margin-right: 7px;
+   padding: 8px 14px;
    -webkit-transition-duration: 400ms; /* Safari */
    transition-duration: 400ms;
  }
  #contact-location {
-   margin-top: 20px;
-   margin-bottom: 30px;
+   margin-top: 30px;
+   width: 60%;
+   margin-left: 20%;
+   margin-bottom: 20px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 0.750em;
+   font-size: 0.850em;
+   margin-top: 0px;
+   margin-bottom: 10px;
    text-align: left;
  }
- #contact-location i {
-   margin-top: 5px;
-   font-size: 0.850em;
+ #contact-location span {
+   width: 30px;
+ }
+ #contact-location span i {
+   font-size: 1.150em;
    padding-right: 0px;
  }
+ #contact-location #address {
+   width: auto;
+ }
+
   /* ---- PORTFOLIO ---- */
 
                 #portafolio {
@@ -2104,6 +2124,7 @@ body {
 
 
  /* -- CONTACT -- */
+
  #contact {
    background-color: #000;
    font-family: 'Lato', sans-serif;
@@ -2113,19 +2134,23 @@ body {
    overflow: hidden;
  }
  #contact-text {
+   width: 70%;
+   margin-left: 15%;
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
  }
  #contact-text b {
    font-weight: 400;
  }
  #contact-text p {
    font-weight: 300;
-   font-size: 0.500em;
+   text-align: center;
+   font-size: 1.150em;
  }
   #contact-info {
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0px;
     text-align: center;
   }
  #contact-info a {
@@ -2133,34 +2158,40 @@ body {
    color: #fff;
    background-color: rgba(204, 58, 39, 1);
    text-align: center;
-   font-size: 0.650em;
+   font-size: 1.150em;
    text-decoration: none;
    border: 1px solid rgba(232, 93, 63, 0);
    border-radius: 3px;
-   padding: 8px 10px;
+   padding: 8px 14px;
    -webkit-transition-duration: 400ms; /* Safari */
    transition-duration: 400ms;
  }
  #contact-location {
-   margin-top: 15px;
+   margin-top: 30px;
+   width: 70%;
+   margin-left: 18%;
    margin-bottom: 20px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 0.500em;
-   margin-top: 6px;
-   margin-bottom: 0px;
+   font-size: 0.750em;
+   margin-top: 0px;
+   margin-bottom: 10px;
    text-align: left;
  }
+ #contact-location span {
+   width: 30px;
+ }
  #contact-location span i {
-   font-size: 0.650em;
+   font-size: 1.150em;
    padding-right: 0px;
  }
  #contact-location #address {
    width: auto;
  }
-  /* ---- PORTFOLIO ---- */
+
+ /* ---- PORTFOLIO ---- */
 
               #portafolio {
                height: auto;
@@ -2450,7 +2481,8 @@ body {
    overflow: hidden;
  }
  #contact-text {
-   width: 100%;
+   width: 90%;
+   margin-left: 5%;
    margin-top: 35px;
    margin-bottom: 0px;
  }
@@ -2484,19 +2516,19 @@ body {
  #contact-location {
    margin-top: 35px;
    width: 70%;
-   margin-left: 15%;
+   margin-left: 18%;
    margin-bottom: 30px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 1.000em;
+   font-size: 0.900em;
    margin-top: 0px;
    margin-bottom: 10px;
    text-align: left;
  }
  #contact-location span i {
-   font-size: 1.150em;
+   font-size: 1.100em;
    padding-right: 0px;
  }
  #contact-location #address {
@@ -2801,7 +2833,7 @@ body {
  #contact-text p {
    font-weight: 300;
    text-align: center;
-   font-size: 1.150em;
+   font-size: 1.050em;
  }
   #contact-info {
     margin-top: 20px;
@@ -2824,14 +2856,14 @@ body {
  }
  #contact-location {
    margin-top: 35px;
-   width: 80%;
-   margin-left: 15%;
+   width: 70%;
+   margin-left: 18%;
    margin-bottom: 30px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 0.950em;
+   font-size: 0.750em;
    margin-top: 0px;
    margin-bottom: 10px;
    text-align: left;
