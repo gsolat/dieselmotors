@@ -1903,7 +1903,7 @@ body {
 /* ---- phone S landscape (Iphone 5) ---- */
 @media (min-width: 440px) and (max-width: 664px) {
   #home {
-    background-image: url('../img/bg-dm-01-500.jpg');
+    background-image: url('../img/bg-dm-01-800.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-size: auto;
@@ -1978,7 +1978,7 @@ body {
 
  /* -- PHRASE -- */
  #phrase {
-   background-image: url('../img/bg-dm-04-500.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
    background-attachment: fixed;
    background-position: top;
@@ -2100,7 +2100,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04-500.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
    background-attachment: fixed;
    background-position: top;
@@ -2168,17 +2168,17 @@ body {
             margin-bottom: 0px;
           }
           .agro {
-            background-image: url('../img/bg-dm-02-500.jpg');
+            background-image: url('../img/bg-dm-02-800.jpg');
             background-attachment: fixed;
             background-size: auto;
           }
           .construction {
-            background-image: url('../img/bg-dm-05-500.jpg');
+            background-image: url('../img/bg-dm-05-800.jpg');
             background-attachment: fixed;
             background-size: auto;
           }
           .marine {
-            background-image: url('../img/bg-dm-03-500.jpg');
+            background-image: url('../img/bg-dm-03-800.jpg');
             background-attachment: fixed;
             background-size: auto;
           }
@@ -2434,7 +2434,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04-500.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
    background-attachment: fixed;
    background-position: top;
@@ -2776,7 +2776,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04-500.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
    background-attachment: fixed;
    background-position: top;
@@ -3115,7 +3115,7 @@ body {
 
  /* -- CONTACT -- */
  #contact {
-   background-image: url('../img/bg-dm-04-500.jpg');
+   background-image: url('../img/bg-dm-04-800.jpg');
    background-size: auto;
    background-attachment: fixed;
    background-position: top;
