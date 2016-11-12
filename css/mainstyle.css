@@ -1484,7 +1484,7 @@ body {
  }
   /* ---- PORTFOLIO ---- */
 
-          #portafolio {
+            #portafolio {
             height: auto;
             font-family: 'Lato', sans-serif;
             color: #505050;
@@ -1506,7 +1506,7 @@ body {
             background-size: cover;
           }
           #portafolio-item {
-            padding-top: 70px;
+            padding-top: 30px;
             margin-bottom:0px;
           }
           #portafolio-item #item-pic img {
@@ -1519,28 +1519,37 @@ body {
           }
           #portafolio-item #item-text h2 {
             text-transform: uppercase;
+            font-size: 1.500em;
             font-weight: 700;
           }
           #portafolio-item #item-text p {
-            font-size: 1.350em;
+            font-size: 1.250em;
+            font-weight: 300;
             line-height: 1.5;
           }
           #portafolio-item #engine-reference {
-            margin-bottom: 100px;
+            padding-bottom: 100px;
           }
           #portafolio-item #engine-reference h3 {
             font-weight: 700;
             margin-top: 0px;
-            font-size: 1.050em;
+            margin-bottom: 0px;
+            font-size: 1.250em;
           }
           #portafolio-item #engine-reference p {
             margin-top: 10px;
-            font-size: 0.900em;
+            font-size: 0.850em;
             line-height: 1.5;
+          }
+          #engine-reference .thumbnail-col {
+            width: 33.3%;
+            padding-right: 5px;
+            padding-left: 5px;
           }
           #engine-reference .thumbnail {
             border: none;
             font-weight: 300;
+            margin-bottom: 10px;
             padding: 0;
           }
           #engine-reference .thumbnail .caption {
@@ -1552,12 +1561,13 @@ body {
           }
           #engine-reference .thumbnail .label-primary {
             background-color: #595F68;
+            font-size: 0.700em;
             font-weight: 300;
-            margin-left: 5px;
+            margin-left: 7px;
           }
           #engine-reference .thumbnail .label-success {
             font-weight: 300;
-            font-size: 1.000em;
+            font-size: 0.950em;
           }
 }
 
@@ -1813,79 +1823,91 @@ body {
  }
   /* ---- PORTFOLIO ---- */
 
-          #portafolio {
-            height: auto;
-            font-family: 'Lato', sans-serif;
-            color: #505050;
-            margin-bottom: 0px;
-          }
-          .agro {
-            background-image: url('../img/bg-dm-02-800.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-          }
-          .construction {
-            background-image: url('../img/bg-dm-05-800.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-          }
-          .marine {
-            background-image: url('../img/bg-dm-03-800.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-          }
-          #portafolio-item {
-            padding-top: 70px;
-            margin-bottom:0px;
-          }
-          #portafolio-item #item-pic img {
-            border-radius: 3px;
-          }
-          #portafolio-item #item-text {
-            text-align: center;
-            color: #000;
-            margin-bottom: 30px;
-          }
-          #portafolio-item #item-text h2 {
-            text-transform: uppercase;
-            font-weight: 700;
-          }
-          #portafolio-item #item-text p {
-            font-size: 1.350em;
-            line-height: 1.5;
-          }
-          #portafolio-item #engine-reference {
-            margin-bottom: 100px;
-          }
-          #portafolio-item #engine-reference h3 {
-            font-weight: 700;
-          }
-          #portafolio-item #engine-reference p {
-            margin-top: 10px;
-            font-size: 0.900em;
-            line-height: 1.5;
-          }
-          #engine-reference .thumbnail {
-            border: none;
-            font-weight: 300;
-            padding: 0;
-          }
-          #engine-reference .thumbnail .caption {
-            padding-bottom: 13px;
-          }
-          #engine-reference .thumbnail .label-default {
-            background-color: #BDBEBF;
-            font-weight: 300;
-          }
-          #engine-reference .thumbnail .label-primary {
-            background-color: #595F68;
-            font-weight: 300;
-            margin-left: 5px;
-          }
-          #engine-reference .thumbnail .label-success {
-            font-weight: 300;
-            font-size: 1.000em;
-          }
+                #portafolio {
+                 height: auto;
+                 font-family: 'Lato', sans-serif;
+                 color: #505050;
+                 margin-bottom: 0px;
+               }
+               .agro {
+                 background-image: url('../img/bg-dm-02-800.jpg');
+                 background-attachment: fixed;
+                 background-size: cover;
+               }
+               .construction {
+                 background-image: url('../img/bg-dm-05-800.jpg');
+                 background-attachment: fixed;
+                 background-size: cover;
+               }
+               .marine {
+                 background-image: url('../img/bg-dm-03-800.jpg');
+                 background-attachment: fixed;
+                 background-size: cover;
+               }
+               #portafolio-item {
+                 padding-top: 30px;
+                 margin-bottom:0px;
+               }
+               #portafolio-item #item-pic img {
+                 border-radius: 3px;
+               }
+               #portafolio-item #item-text {
+                 text-align: center;
+                 color: #000;
+                 margin-bottom: 30px;
+               }
+               #portafolio-item #item-text h2 {
+                 text-transform: uppercase;
+                 font-size: 1.500em;
+                 font-weight: 700;
+               }
+               #portafolio-item #item-text p {
+                 font-size: 1.250em;
+                 font-weight: 300;
+                 line-height: 1.5;
+               }
+               #portafolio-item #engine-reference {
+                 padding-bottom: 100px;
+               }
+               #portafolio-item #engine-reference h3 {
+                 font-weight: 700;
+                 margin-top: 0px;
+                 margin-bottom: 0px;
+                 font-size: 1.250em;
+               }
+               #portafolio-item #engine-reference p {
+                 margin-top: 10px;
+                 font-size: 0.850em;
+                 line-height: 1.5;
+               }
+               #engine-reference .thumbnail-col {
+                 width: 33.3%;
+                 padding-right: 5px;
+                 padding-left: 5px;
+               }
+               #engine-reference .thumbnail {
+                 border: none;
+                 font-weight: 300;
+                 margin-bottom: 10px;
+                 padding: 0;
+               }
+               #engine-reference .thumbnail .caption {
+                 padding-bottom: 13px;
+               }
+               #engine-reference .thumbnail .label-default {
+                 background-color: #BDBEBF;
+                 font-weight: 300;
+               }
+               #engine-reference .thumbnail .label-primary {
+                 background-color: #595F68;
+                 font-size: 0.700em;
+                 font-weight: 300;
+                 margin-left: 7px;
+               }
+               #engine-reference .thumbnail .label-success {
+                 font-weight: 300;
+                 font-size: 0.950em;
+               }
 }
 
 /* ---- phone S landscape (Iphone 5) ---- */
@@ -2140,79 +2162,91 @@ body {
  }
   /* ---- PORTFOLIO ---- */
 
-          #portafolio {
-            height: auto;
-            font-family: 'Lato', sans-serif;
-            color: #505050;
-            margin-bottom: 0px;
-          }
-          .agro {
-            background-image: url('../img/bg-dm-02-800.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-          }
-          .construction {
-            background-image: url('../img/bg-dm-05-800.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-          }
-          .marine {
-            background-image: url('../img/bg-dm-03-800.jpg');
-            background-attachment: fixed;
-            background-size: cover;
-          }
-          #portafolio-item {
-            padding-top: 70px;
-            margin-bottom:0px;
-          }
-          #portafolio-item #item-pic img {
-            border-radius: 3px;
-          }
-          #portafolio-item #item-text {
-            text-align: center;
-            color: #000;
-            margin-bottom: 30px;
-          }
-          #portafolio-item #item-text h2 {
-            text-transform: uppercase;
-            font-weight: 700;
-          }
-          #portafolio-item #item-text p {
-            font-size: 1.350em;
-            line-height: 1.5;
-          }
-          #portafolio-item #engine-reference {
-            margin-bottom: 100px;
-          }
-          #portafolio-item #engine-reference h3 {
-            font-weight: 700;
-          }
-          #portafolio-item #engine-reference p {
-            margin-top: 10px;
-            font-size: 0.900em;
-            line-height: 1.5;
-          }
-          #engine-reference .thumbnail {
-            border: none;
-            font-weight: 300;
-            padding: 0;
-          }
-          #engine-reference .thumbnail .caption {
-            padding-bottom: 13px;
-          }
-          #engine-reference .thumbnail .label-default {
-            background-color: #BDBEBF;
-            font-weight: 300;
-          }
-          #engine-reference .thumbnail .label-primary {
-            background-color: #595F68;
-            font-weight: 300;
-            margin-left: 5px;
-          }
-          #engine-reference .thumbnail .label-success {
-            font-weight: 300;
-            font-size: 1.000em;
-          }
+              #portafolio {
+               height: auto;
+               font-family: 'Lato', sans-serif;
+               color: #505050;
+               margin-bottom: 0px;
+             }
+             .agro {
+               background-image: url('../img/bg-dm-02-800.jpg');
+               background-attachment: fixed;
+               background-size: cover;
+             }
+             .construction {
+               background-image: url('../img/bg-dm-05-800.jpg');
+               background-attachment: fixed;
+               background-size: cover;
+             }
+             .marine {
+               background-image: url('../img/bg-dm-03-800.jpg');
+               background-attachment: fixed;
+               background-size: cover;
+             }
+             #portafolio-item {
+               padding-top: 30px;
+               margin-bottom:0px;
+             }
+             #portafolio-item #item-pic img {
+               border-radius: 3px;
+             }
+             #portafolio-item #item-text {
+               text-align: center;
+               color: #000;
+               margin-bottom: 30px;
+             }
+             #portafolio-item #item-text h2 {
+               text-transform: uppercase;
+               font-size: 1.500em;
+               font-weight: 700;
+             }
+             #portafolio-item #item-text p {
+               font-size: 1.250em;
+               font-weight: 300;
+               line-height: 1.5;
+             }
+             #portafolio-item #engine-reference {
+               padding-bottom: 100px;
+             }
+             #portafolio-item #engine-reference h3 {
+               font-weight: 700;
+               margin-top: 0px;
+               margin-bottom: 0px;
+               font-size: 1.450em;
+             }
+             #portafolio-item #engine-reference p {
+               margin-top: 10px;
+               font-size: 0.950em;
+               line-height: 1.5;
+             }
+             #engine-reference .thumbnail-col {
+               width: 33.3%;
+               padding-right: 5px;
+               padding-left: 5px;
+             }
+             #engine-reference .thumbnail {
+               border: none;
+               font-weight: 300;
+               margin-bottom: 10px;
+               padding: 0;
+             }
+             #engine-reference .thumbnail .caption {
+               padding-bottom: 13px;
+             }
+             #engine-reference .thumbnail .label-default {
+               background-color: #BDBEBF;
+               font-weight: 300;
+             }
+             #engine-reference .thumbnail .label-primary {
+               background-color: #595F68;
+               font-size: 0.700em;
+               font-weight: 300;
+               margin-left: 7px;
+             }
+             #engine-reference .thumbnail .label-success {
+               font-weight: 300;
+               font-size: 0.950em;
+             }
 }
 
 /* ---- phone L / porttrait ---- */
@@ -2520,7 +2554,7 @@ body {
              font-weight: 700;
              margin-top: 0px;
              margin-bottom: 0px;
-             font-size: 1.350em;
+             font-size: 1.450em;
            }
            #portafolio-item #engine-reference p {
              margin-top: 10px;
