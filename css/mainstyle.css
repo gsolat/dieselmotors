@@ -370,7 +370,7 @@ body {
  }
  #contact-text p {
    font-weight: 300;
-   font-size: 1.150em;
+   font-size: 1.000em;
  }
   #contact-info {
     margin-top: 85px;
@@ -412,12 +412,12 @@ body {
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 1.050em;
+   font-size: 0.900em;
    text-align: left;
  }
  #contact-location i {
    margin-top: 5px;
-   font-size: 1.250em;
+   font-size: 1.050em;
  }
  #contact-location span {
   padding-right: 3px;
@@ -781,15 +781,14 @@ body {
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 0.900em;
+   font-size: 0.850em;
    text-align: left;
  }
  #contact-location i {
-   margin-top: 5px;
-   font-size: 0.900em;
+   font-size: 1.000em;
  }
  #contact-location span {
- padding-right: 0px;
+ padding-right: 0;
  text-align: right;
  }
 
@@ -2526,8 +2525,8 @@ body {
  }
  #contact-location {
    margin-top: 35px;
-   width: 70%;
-   margin-left: 18%;
+   width: 65%;
+   margin-left: 20%;
    margin-bottom: 30px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
@@ -2543,7 +2542,7 @@ body {
    padding-right: 0px;
  }
  #contact-location #address {
-   width: auto;
+   width: 80%;
  }
   /* ---- PORTFOLIO ---- */
 
@@ -2867,8 +2866,8 @@ body {
  }
  #contact-location {
    margin-top: 35px;
-   width: 70%;
-   margin-left: 18%;
+   width: 65%;
+   margin-left: 20%;
    margin-bottom: 30px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
@@ -2880,11 +2879,11 @@ body {
    text-align: left;
  }
  #contact-location span i {
-   font-size: 1.050em;
+   font-size: 0.850em;
    padding-right: 0px;
  }
  #contact-location #address {
-   width: auto;
+   width: 80%;
  }
   /* ---- PORTFOLIO ---- */
 
@@ -3207,25 +3206,25 @@ body {
    transition-duration: 400ms;
  }
  #contact-location {
-   margin-top: 30px;
-   width: 80%;
-   margin-left: 15%;
+   margin-top: 35px;
+   width: 70%;
+   margin-left: 18%;
    margin-bottom: 30px;
    font-weight: 300;
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 0.750em;
+   font-size: 0.650em;
    margin-top: 2px;
    margin-bottom: 10px;
    text-align: left;
  }
  #contact-location span i {
-   font-size: 1.050em;
+   font-size: 0.800em;
    padding-right: 0px;
  }
  #contact-location #address {
-   width: auto;
+   width: 80%;
    color: #fff;
  }
   /* ---- PORTFOLIO ---- */
