@@ -370,7 +370,7 @@ body {
  }
  #contact-text p {
    font-weight: 300;
-   font-size: 1.350em;
+   font-size: 1.150em;
  }
   #contact-info {
     margin-top: 85px;
@@ -412,13 +412,16 @@ body {
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 1.350em;
+   font-size: 1.050em;
    text-align: left;
  }
  #contact-location i {
    margin-top: 5px;
    font-size: 1.250em;
-   padding-right: 0px;
+ }
+ #contact-location span {
+  padding-right: 3px;
+  text-align: right;
  }
   /* ---- PORTFOLIO ---- */
 
@@ -736,7 +739,7 @@ body {
  }
  #contact-text p {
    font-weight: 300;
-   font-size: 1.000em;
+   font-size: 0.900em;
  }
   #contact-info {
     margin-top: 85px;
@@ -778,14 +781,18 @@ body {
    font-family: 'Lato', sans-serif;
  }
  #contact-location p {
-   font-size: 1.000em;
+   font-size: 0.900em;
    text-align: left;
  }
  #contact-location i {
    margin-top: 5px;
-   font-size: 1.000em;
-   padding-right: 0px;
+   font-size: 0.900em;
  }
+ #contact-location span {
+ padding-right: 0px;
+ text-align: right;
+ }
+
   /* ---- PORTFOLIO ---- */
 
           #portafolio {
@@ -1151,8 +1158,12 @@ body {
  #contact-location i {
    margin-top: 5px;
    font-size: 0.850em;
-   padding-right: 0px;
  }
+ #contact-location span {
+  padding-right: 3px;
+  text-align: right;
+ }
+
   /* ---- PORTFOLIO ---- */
 
           #portafolio {
