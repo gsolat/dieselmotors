@@ -1401,6 +1401,9 @@ body {
    line-height: normal;
    text-align: left;
  }
+ #phrase-3-text .text {
+   margin-bottom: 100px;
+ }
  #phrase-3-text .lnr {
    font-size: 8.000em;
  }
@@ -1415,7 +1418,7 @@ body {
  #phrase-3-text .text p {
    font-size: 1.150em;
    border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 30px;
  }
  #phrase-3-text .text .icon {
    font-size: 0.900em;
@@ -1750,6 +1753,9 @@ body {
    line-height: normal;
    text-align: left;
  }
+ #phrase-3-text .text {
+   margin-bottom: 100px;
+ }
  #phrase-3-text .lnr {
    font-size: 6.500em;
  }
@@ -1764,7 +1770,7 @@ body {
  #phrase-3-text .text p {
    font-size: 1.050em;
    border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 30px;
  }
  #phrase-3-text .text .icon {
    font-size: 0.900em;
@@ -2099,6 +2105,9 @@ body {
    line-height: normal;
    text-align: left;
  }
+ #phrase-3-text .text {
+   margin-bottom: 100px;
+ }
  #phrase-3-text .lnr {
    font-size: 5.350em;
  }
@@ -2113,7 +2122,7 @@ body {
  #phrase-3-text .text p {
    font-size: 0.850em;
    border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 30px;
  }
  #phrase-3-text .text .icon {
    font-size: 0.900em;
@@ -2446,6 +2455,7 @@ body {
  #phrase-3-text .text {
    margin-left: 5%;
    width: 55%;
+   margin-bottom: 110px;
  }
  #phrase-3-text .lnr {
    font-size: 5.350em;
@@ -2461,7 +2471,7 @@ body {
  #phrase-3-text .text p {
    font-size: 1.250em;
    border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 30px;
  }
  #phrase-3-text .text .icon {
    font-size: 0.900em;
@@ -2787,6 +2797,7 @@ body {
  }
  #phrase-3-text .text {
    margin-left: 10%;
+   margin-bottom: 110px;
    width: 55%;
  }
  #phrase-3-text .lnr {
@@ -2803,7 +2814,7 @@ body {
  #phrase-3-text .text p {
    font-size: 1.150em;
    border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 30px;
  }
  #phrase-3-text .text .icon {
    font-size: 0.900em;
@@ -3129,6 +3140,7 @@ body {
  #phrase-3-text .text {
    margin-left: 10%;
    width: 65%;
+   margin-bottom: 110px;
  }
  #phrase-3-text .lnr {
    font-size: 4.150em;
@@ -3144,7 +3156,7 @@ body {
  #phrase-3-text .text p {
    font-size: 1.050em;
    border-radius: 5px;
-   margin-bottom: 100px;
+   margin-bottom: 30px;
  }
  #phrase-3-text .text .icon {
    font-size: 0.900em;
