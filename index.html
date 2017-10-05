@@ -39,9 +39,9 @@
 
        <div class="collapse navbar-collapse navbar">
               <ul class="nav navbar-nav navbar-right">
-                  <li class="scroll"><a href="#home" class="smoothScroll">INICIO</a></li>
+                  <li class="scroll"><a data-scroll href="#home">INICIO</a></li>
                   <li class="scroll"><a href="portfolio.html">MOTORES</a></li>
-                  <li class="scroll"><a href="#contact" class="smoothScroll">CONTACTO</a></li>
+                  <li class="scroll"><a data-scroll href="#contact">CONTACTO</a></li>
              </ul>
       </div>
     </div>
@@ -58,7 +58,7 @@
                         <h2>Grandes Experiencias / Soluciones confiables</h2>
               </div>
               <div id="nav" class="col-lg-4 col-md-4 col-sm-8 col-xs-8 col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-offset-2">
-                        <a href="#phrase" class="smoothScroll">CONÓCENOS</a>
+                        <a data-scroll href="#phrase">CONÓCENOS</a>
               </div>
           </div>
        </div>
@@ -157,7 +157,10 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
