@@ -902,59 +902,175 @@ hr {
 
 @media (max-width: 374px) {
     #home {
-      background-image: url('../img/bg-dmc.svg');
-      background-attachment: fixed;
-      background-position: top center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #000;
-      height: auto;
-      margin-top: 0;
-      z-index: 10;
-      overflow: hidden;
-      font-family: 'Lato', sans-serif;
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #231f20;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
     #text-box {
-      margin: calc(53%) 0;
+        margin: calc(35%) 0;
     }
-    #home-page .contact {
+    #text {
+        margin: calc(10%) 0;
+    }
+    #operation #text {
+        margin: 0;
+        padding-bottom: 50px; 
+    }
+    #operation {
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #operation h1 {
+        font-size: 2.5em;
+        font-family: 'Lato', sans-serif;
+        color: #231f20;
+        margin-bottom: 10px;
+        line-height: 1.1;
+    }
+    #operation #text p {
+        font-size: 1.3em;
+        line-height: 1.5;
+    }
+    #operation-2, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    }
+    #operation-2 {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #ff0000;
+    }
+    #operation-2 .text {
+      margin-top: 50px;
+        color: #fff;
+        letter-spacing: .5px;
+    }
+    #operation-2 img {
+      display: none;
+    }
+    #operation-2 h1 {
+      font-size: 2.5em;
       color: #fff;
-      font-size: .9em;
-      letter-spacing: 1px;
-      font-weight: 200;
     }
-      #home-page img {
+    .text p {
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    #team {
+      margin-top: 50px;
+      background-color: #fff;
+    }
+    #team h1 {
+      margin-top: 50px;
+      font-size: 2.5em;
+    }
+    #team img {
+      display: none;
+      max-width: 170px;
+      padding: 50px 0 0 30px;
+      color:#ff0000;
+    }
+    #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+      padding-top: 50px;
+      margin-bottom: 150px;
+    }
+    #executive h1 {
+      margin-top: 50px;
+      text-align: left;
+      font-size: 2.5em;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 200px;
+      padding: 40px;
+    }
+    #brands {
+      background-color: #fff;
+      text-align: center;
+      margin-bottom: 150px;
+    }
+    #brands h1 {
+      font-size: 2.5em;
+      text-align: center;
       margin-bottom: 30px;
-      }
-      #home-page #icon {
-          text-align: center;
-      }
-    #home-page #nav a {
-      font-weight: 300;
-      color: #fff;
-      text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400s; /* Safari */
-      transition-duration: 400ms;
     }
-    #home-page #nav a:hover {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      color: #000;
-      background-color: rgba(255, 255, 255, 1);
+    #brands img{
+      max-width: 150px;
+      margin: 20px 0px;
+    }
+    #banner {
       text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400ms; /* Safari */
-      transition-duration: 400ms;
+      padding: 0 0 1px 0;
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000; /* red */
+    }
+    #banner h3 {
+      margin: 35px 0;
+      color: #fff;
+    }
+    #banner img {
+      margin-top: -55px;
+      max-width: 80px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+    #contact {
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #231f20;
+      text-align: center;
+    }
+    #contact .text {
+      padding: 50px 0;
+      color: #fff;
+    }
+    #contact .text img {
+      padding-top: 15px;
+      max-width: 50px;
+    }
+    #contact a {
+      font-size: 1.3em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact p {
+      margin-top: 1rem;
     }
 }
