@@ -908,7 +908,6 @@ hr {
         background-size: cover;
         background-repeat: no-repeat;
         color: #231f20;
-        height: auto;
         margin-top: 0;
         margin-bottom: 0;
         z-index: 10;
@@ -932,7 +931,7 @@ hr {
         background-size: cover;
         background-repeat: no-repeat;
         height: auto;
-        margin-top: 0;
+        padding-top: 30px;
         margin-bottom: 0;
         z-index: 10;
         overflow: hidden;
