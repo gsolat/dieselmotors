@@ -905,7 +905,7 @@ hr {
         background-image: url('../img/bg-1.png');
         background-position: top center;
         background-attachment: fixed;
-        background-size: 1500px auto;
+        background-size: 1000px auto;
         background-repeat: no-repeat;
         color: #231f20;
         margin-top: 0;
@@ -928,7 +928,7 @@ hr {
         background-image: url('../img/bg-1.png');
         background-position: top center;
         background-attachment: fixed;
-        background-size: 1500px;
+        background-size: 1000px;
         background-repeat: no-repeat;
         height: auto;
         padding-top: 30px;
