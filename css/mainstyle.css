@@ -1,438 +1,906 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900&display=swap');
+
 body {
-  margin-top: 0;
-  position: relative;
-  width: 100%;
-  overflow: scroll;
-  font-size: 16px;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Abril Fatface', cursive;
+    color: #ff0000;
+}
+
+a {
+    color: #ff0000;
+    -webkit-transition: color 400ms, background-color 400ms;
+    -moz-transition: color 400ms, background-color 400ms;
+    -o-transition:  color 400ms, background-color 400ms;
+    transition:  color 400ms, background-color 400ms;
+}
+    a:hover,
+    a:focus {
+        color: #a51b0b;
+        text-decoration: none;
+    }
+}
+hr {
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #fff;
+}
+.section-header .section-title {
+    font-size: 44px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+.btn {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f27466;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #f27466;
+    text-transform: uppercase;
+}
+.btn-xs {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 4px 8px;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: #FF6D00;
+}
+.btn-primary {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border-width: 0;
+    border-radius: 3px;
+    background: #f27466;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    background: #f27466;
+    color: #fff;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #ef5443;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #ef5443;
+    color: #fff;
 }
 
 .container-fluid {
-  background-color: #f5f7f6;
+  /*background-color: #f5f7f6;*/
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;
   width: inherit;
 }
 
-/* ------- HEADER ------- */
-
-.navbar.navbar-default {
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-}
-.navbar ul {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.navbar-default .navbar-toggle {
-  border-color: #000;
-}
-.navbar.navbar-default .navbar-toggle {
-  margin-top: 13px;
-  margin-right: 43px;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: transparent;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
-}
-.navbar.navbar-default .navbar-brand {
-  height: auto;
-  padding: 10px 15px;
-  margin-bottom: 0px;
-}
-.navbar.navbar-default .navbar-brand img {
-  height: 40px;
-}
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form  {
-  border: 0;
-}
-
-@media (max-width: 767px) {
-   .navbar-default {
-    max-width: 100px;
-    text-align: left;
-  }
-  .navbar-nav {
-    margin-top: 0;
-    margin-bottom: 0;
- }
-   .navbar-default .navbar-nav > li > a {
-    text-align: left;
-    font-weight: normal;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.750em;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    color: #fff;
-    margin-right: 5px;
-    margin-bottom: 0px;
-  }
-   .navbar-default .navbar-nav > li.active > a,
-   .navbar-default .navbar-nav > li.open > a,
-   .navbar-default .navbar-nav > li:hover > a
-   .navbar-default .navbar-nav > li:focus > a {
-  }
-
-  .navbar-default .navbar-nav > li > a:hover,
-  .navbar-default .navbar-nav > li > a:focus {
-    color: #E85D3F;
-    transition: 400ms;
-  }
-  .navbar-header {
-     /*background-color: rgba(0, 0, 0, 0.5);*/
- }
-}
-
-@media only screen and (min-width: 768px) {
-  .navbar.navbar-default {
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-  }
-  .navbar.navbar-default .navbar-toggle {
-    margin-top: 32px;
-  }
-  .navbar.navbar-default .navbar-brand {
-    height: auto;
-    padding: 22px 15px 21px;
-    margin-bottom: 0;
-  }
-  .navbar.navbar-default .navbar-brand img {
-    height: 50px;
-  }
-   .navbar-default {
-    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
-  }
-   .navbar-default .navbar-nav {
-    margin-top: 0px;
-    margin-bottom: 5px;
-  }
-   .navbar-default .navbar-nav > li > a {
-    font-size: 0.700em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #FFF;
-    border: 1px solid transparent;
-    transition: 400ms;
-  }
-   .navbar-default .navbar-nav > li.active > a,
-   .navbar-default .navbar-nav > li.open > a,
-   .navbar-default .navbar-nav > li > a:hover,
-   .navbar-default .navbar-nav > li > a:focus {
-    background: rgba(0,0,0,0.7);
-    color: #FFF;
-    transition: 400ms;
-  }
-}
-
-
 /* CONTENT */
 @media (min-width: 1200px) {
-  #home {
-    background-image: url('../img/bg-dmc.svg');
-    background-attachment: fixed;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #000;
-    height: auto;
-    margin-top: 0;
-    z-index: 10;
-    overflow: hidden;
-    font-family: 'Lato', sans-serif;
-  }
-  #text-box {
-    margin: calc(17%) 0;
-  }
-  #home-page .contact {
-    color: #fff;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    font-weight: 200;
-  }
-    #home-page img {
-    max-width: 40%;
-    margin-left: 30%;
-    margin-bottom: 30px;
+    #home {
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #231f20;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
-    #home-page #icon {
-        text-align: center;
+    #text-box {
+        margin: calc(20%) 0;
     }
-  #home-page #nav a {
-    font-weight: 300;
-    color: #fff;
-    text-align: center;
-    font-size: 1.500em;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    padding: 10px 18px;
-    margin-right: 7px;
-    -webkit-transition-duration: 400s; /* Safari */
-    transition-duration: 400ms;
-  }
-  #home-page #nav a:hover {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #000;
-    background-color: rgba(255, 255, 255, 1);
-    text-align: center;
-    font-size: 1.500em;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    padding: 10px 18px;
-    margin-right: 7px;
-    -webkit-transition-duration: 400ms; /* Safari */
-    transition-duration: 400ms;
-  }
+    #text {
+        margin: calc(10%) 0;
+    }
+    #operation h1 {
+        font-size: 4em;
+        font-family: 'Lato', sans-serif;
+        color: #231f20;
+        margin-bottom: 90px;
+        line-height: 1.5;
+    }
+    #operation #text p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+    #operation-2, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    }
+    #operation-2 {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #ff0000;
+    }
+    #operation-2 .text {
+        color: #fff;
+        font-size: 1.1em;
+        letter-spacing: .5px;
+    }
+    #operation-2 img {
+      max-width: 250px;
+    }
+    #operation-2 h1 {
+      color: #fff;
+    }
+    .text p {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+    #team {
+      background-color: #fff;
+    }
+    #team img {
+      max-width: 250px;
+      color:#ff0000;
+    }
+    #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+    }
+    #executive h1 {
+      text-align: center;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 200px;
+      padding: 40px;
+    }
+    #brands {
+      background-color: #fff;
+      text-align: center;
+      margin-bottom: 200px;
+    }
+    #brands h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    #brands img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+    #banner {
+      text-align: center;
+      padding: 0 0 1px 0;
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #banner h3 {
+      margin: 35px 0 0 0;
+      color: #fff;
+    }
+    #banner img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+    #contact {
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #231f20;
+    }
+    #contact .text {
+      padding: 120px 0;
+      color: #fff;
+    }
+    #contact .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contact a {
+      font-size: 3em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact p {
+      margin-top: 1rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home {
-      background-image: url('../img/bg-dmc.svg');
-      background-attachment: fixed;
-      background-position: top center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #000;
-      height: auto;
-      margin-top: 0;
-      z-index: 10;
-      overflow: hidden;
-      font-family: 'Lato', sans-serif;
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #231f20;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
     #text-box {
-      margin: calc(17%) 0;
+        margin: calc(15%) 0;
     }
-    #home-page .contact {
+    #text {
+        margin: calc(10%) 0;
+    }
+    #operation h1 {
+        font-size: 3.5em;
+        font-family: 'Lato', sans-serif;
+        color: #231f20;
+        margin-bottom: 90px;
+        line-height: 1.5;
+    }
+    #operation #text p {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+    #operation-2, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    }
+    #operation-2 {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #ff0000;
+    }
+    #operation-2 .text {
+        color: #fff;
+        font-size: 1.1em;
+        letter-spacing: .5px;
+    }
+    #operation-2 img {
+      max-width: 250px;
+    }
+    #operation-2 h1 {
       color: #fff;
-      font-size: 1em;
-      letter-spacing: 1px;
-      font-weight: 200;
     }
-      #home-page img {
+    .text p {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+    #team {
+      background-color: #fff;
+    }
+    #team img {
+      max-width: 250px;
+      color:#ff0000;
+    }
+    #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+    }
+    #executive h1 {
+      text-align: center;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 200px;
+      padding: 40px;
+    }
+    #brands {
+      background-color: #fff;
+      text-align: center;
+      margin-bottom: 200px;
+    }
+    #brands h1 {
+      text-align: center;
       margin-bottom: 30px;
-      }
-      #home-page #icon {
-          text-align: center;
-      }
-    #home-page #nav a {
-      font-weight: 300;
-      color: #fff;
-      text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400s; /* Safari */
-      transition-duration: 400ms;
     }
-    #home-page #nav a:hover {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      color: #000;
-      background-color: rgba(255, 255, 255, 1);
+    #brands img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+    #banner {
       text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400ms; /* Safari */
-      transition-duration: 400ms;
+      padding: 0 0 1px 0;
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000; /* red */
+    }
+    #banner h3 {
+      margin: 35px 0 0 0;
+      color: #fff;
+    }
+    #banner img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+    #contact {
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #231f20;
+    }
+    #contact .text {
+      padding: 100px 0;
+      color: #fff;
+    }
+    #contact .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contact a {
+      font-size: 3em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact p {
+      margin-top: 1rem;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
     #home {
-      background-image: url('../img/bg-dmc.svg');
-      background-attachment: fixed;
-      background-position: top center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #000;
-      height: auto;
-      margin-top: 0;
-      z-index: 10;
-      overflow: hidden;
-      font-family: 'Lato', sans-serif;
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #231f20;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
     #text-box {
-      margin: calc(17%) 0;
+        margin: calc(15%) 0;
     }
-    #home-page .contact {
+    #text {
+        margin: calc(10%) 0;
+    }
+    #operation h1 {
+        font-size: 3em;
+        font-family: 'Lato', sans-serif;
+        color: #231f20;
+        margin-bottom: 90px;
+        line-height: 1.5;
+    }
+    #operation #text p {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+    #operation-2, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    }
+    #operation-2 {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #ff0000;
+    }
+    #operation-2 .text {
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: .5px;
+    }
+    #operation-2 img {
+      max-width: 300px;
+      padding: 30px;
+    }
+    #operation-2 h1 {
       color: #fff;
-      font-size: 1em;
-      letter-spacing: 1px;
-      font-weight: 200;
     }
-      #home-page img {
+    .text p {
+        margin-top: 30px;
+        font-size: 1.1em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    #team {
+      background-color: #fff;
+    }
+    #team img {
+      max-width: 300px;
+      padding: 30px;
+      color:#ff0000;
+    }
+    #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+      margin-bottom: 200px;
+    }
+    #executive h1 {
+      text-align: center;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 200px;
+      padding: 40px;
+    }
+    #brands {
+      background-color: #fff;
+      text-align: center;
+      margin-bottom: 200px;
+    }
+    #brands h1 {
+      text-align: center;
       margin-bottom: 30px;
-      }
-      #home-page #icon {
-          text-align: center;
-      }
-    #home-page #nav a {
-      font-weight: 300;
-      color: #fff;
-      text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400s; /* Safari */
-      transition-duration: 400ms;
     }
-    #home-page #nav a:hover {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      color: #000;
-      background-color: rgba(255, 255, 255, 1);
+    #brands img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+    #banner {
       text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400ms; /* Safari */
-      transition-duration: 400ms;
+      padding: 0 0 1px 0;
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000; /* red */
+    }
+    #banner h3 {
+      margin: 35px 0 0 0;
+      color: #fff;
+    }
+    #banner img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+    #contact {
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #231f20;
+    }
+    #contact .text {
+      padding: 100px 0;
+      color: #fff;
+    }
+    #contact .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contact a {
+      font-size: 3em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact a:hover {
+      color:#fff; 
+      font-size: 3em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact p {
+      margin-top: 1rem;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     #home {
-      background-image: url('../img/bg-dmc.svg');
-      background-attachment: fixed;
-      background-position: top center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #000;
-      height: auto;
-      margin-top: 0;
-      z-index: 10;
-      overflow: hidden;
-      font-family: 'Lato', sans-serif;
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #231f20;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
     #text-box {
-      margin: calc(17%) 0;
+        margin: calc(15%) 0;
     }
-    #home-page .contact {
+    #text {
+        margin: calc(10%) 0;
+    }
+    #operation h1 {
+        font-size: 2.5em;
+        font-family: 'Lato', sans-serif;
+        color: #231f20;
+        margin-bottom: 90px;
+        line-height: 1.5;
+    }
+    #operation #text p {
+        font-size: .9em;
+        line-height: 2;
+    }
+    #operation-2, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    }
+    #operation-2 {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #ff0000;
+    }
+    #operation-2 .text {
+        color: #fff;
+        letter-spacing: .5px;
+    }
+    #operation-2 img {
+      max-width: 170px;
+      padding: 20px;
+    }
+    #operation-2 h1 {
+      font-size: 2.5em;
       color: #fff;
-      font-size: 1em;
-      letter-spacing: 1px;
-      font-weight: 200;
     }
-      #home-page img {
+    .text p {
+        margin-top: 30px;
+        font-size: .9em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    #team {
+      background-color: #fff;
+    }
+    #team h1 {
+      font-size: 2.5em;
+    }
+    #team p {
+      font-size: .9em;
+    }
+    #team img {
+      max-width: 170px;
+      padding: 50px 0 0 30px;
+      color:#ff0000;
+    }
+    #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+      margin-bottom: 150px;
+    }
+    #executive h1 {
+      text-align: center;
+      font-size: 2.5em;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 200px;
+      padding: 40px;
+    }
+    #brands {
+      background-color: #fff;
+      text-align: center;
+      margin-bottom: 150px;
+    }
+    #brands h1 {
+      font-size: 2.5em;
+      text-align: center;
       margin-bottom: 30px;
-      }
-      #home-page #icon {
-          text-align: center;
-      }
-    #home-page #nav a {
-      font-weight: 300;
-      color: #fff;
-      text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400s; /* Safari */
-      transition-duration: 400ms;
     }
-    #home-page #nav a:hover {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      color: #000;
-      background-color: rgba(255, 255, 255, 1);
+    #brands img{
+      max-width: 130px;
+      margin: 20px 0px;
+    }
+    #banner {
       text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400ms; /* Safari */
-      transition-duration: 400ms;
+      padding: 0 0 1px 0;
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000; /* red */
+    }
+    #banner h3 {
+      margin: 35px 0 0 0;
+      color: #fff;
+    }
+    #banner img {
+      margin-top: -55px;
+      max-width: 80px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+    #contact {
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #231f20;
+    }
+    #contact .text {
+      padding: 100px 0;
+      color: #fff;
+    }
+    #contact .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contact a {
+      font-size: 2em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact a:hover {
+      color:#fff; 
+      font-size: 2em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact p {
+      margin-top: 1rem;
     }
 }
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (min-width: 375px) and (max-width: 575px) {
     #home {
-      background-image: url('../img/bg-dmc.svg');
-      background-attachment: fixed;
-      background-position: top center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #000;
-      height: auto;
-      margin-top: 0;
-      z-index: 10;
-      overflow: hidden;
-      font-family: 'Lato', sans-serif;
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #231f20;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
     #text-box {
-      margin: calc(53%) 0;
+        margin: calc(35%) 0;
     }
-    #home-page .contact {
+    #text {
+        margin: calc(10%) 0;
+    }
+    #operation #text {
+        margin: 0;
+        padding-bottom: 50px; 
+    }
+    #operation {
+        background-image: url('../img/bg-1.png');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #operation h1 {
+        font-size: 2.5em;
+        font-family: 'Lato', sans-serif;
+        color: #231f20;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+    #operation #text p {
+        font-size: 1.3em;
+        line-height: 2;
+    }
+    #operation-2, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    }
+    #operation-2 {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #ff0000;
+    }
+    #operation-2 .text {
+      margin-top: 50px;
+        color: #fff;
+        letter-spacing: .5px;
+    }
+    #operation-2 img {
+      display: none;
+    }
+    #operation-2 h1 {
+      font-size: 2.5em;
       color: #fff;
-      font-size: 1em;
-      letter-spacing: 1px;
-      font-weight: 200;
     }
-      #home-page img {
+    .text p {
+        font-size: 1.1em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    #team {
+      margin-top: 50px;
+      background-color: #fff;
+    }
+    #team h1 {
+      margin-top: 50px;
+      font-size: 2.5em;
+    }
+    #team img {
+      display: none;
+      max-width: 170px;
+      padding: 50px 0 0 30px;
+      color:#ff0000;
+    }
+    #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+      padding-top: 50px;
+      margin-bottom: 150px;
+    }
+    #executive h1 {
+      margin-top: 50px;
+      text-align: left;
+      font-size: 2.5em;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 200px;
+      padding: 40px;
+    }
+    #brands {
+      background-color: #fff;
+      text-align: center;
+      margin-bottom: 150px;
+    }
+    #brands h1 {
+      font-size: 2.5em;
+      text-align: center;
       margin-bottom: 30px;
-      }
-      #home-page #icon {
-          text-align: center;
-      }
-    #home-page #nav a {
-      font-weight: 300;
-      color: #fff;
-      text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400s; /* Safari */
-      transition-duration: 400ms;
     }
-    #home-page #nav a:hover {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      color: #000;
-      background-color: rgba(255, 255, 255, 1);
+    #brands img{
+      max-width: 150px;
+      margin: 20px 0px;
+    }
+    #banner {
       text-align: center;
-      font-size: 1.500em;
-      text-decoration: none;
-      border: 1px solid #fff;
-      border-radius: 3px;
-      padding: 10px 18px;
-      margin-right: 7px;
-      -webkit-transition-duration: 400ms; /* Safari */
-      transition-duration: 400ms;
+      padding: 0 0 1px 0;
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000; /* red */
+    }
+    #banner h3 {
+      margin: 35px 0;
+      color: #fff;
+    }
+    #banner img {
+      margin-top: -55px;
+      max-width: 80px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+    #contact {
+      background-image: url('../img/bg-1.png');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #231f20;
+      text-align: center;
+    }
+    #contact .text {
+      padding: 50px 0;
+      color: #fff;
+    }
+    #contact .text img {
+      padding-top: 25px;
+      max-width: 50px;
+    }
+    #contact a {
+      font-size: 1.5em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contact p {
+      margin-top: 1rem;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
     #home {
       background-image: url('../img/bg-dmc.svg');
       background-attachment: fixed;
