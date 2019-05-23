@@ -903,7 +903,7 @@ hr {
 @media (max-width: 374px) {
     #home {
         background-image: url('../img/bg-1.png');
-        background-position: bottom center;
+        background-position: center center;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
@@ -915,7 +915,7 @@ hr {
         font-family: 'Noto Serif', serif;
     }
     #text-box {
-        margin: calc(35%) 0;
+        margin: calc(30%) 0;
     }
     #text {
         margin: calc(10%) 0;
