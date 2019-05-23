@@ -103,7 +103,7 @@ hr {
 /* CONTENT */
 @media (min-width: 1200px) {
     #home {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: bottom center;
         background-attachment: fixed;
         background-size: cover;
@@ -206,7 +206,7 @@ hr {
     #banner {
       text-align: center;
       padding: 0 0 1px 0;
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -226,7 +226,7 @@ hr {
       padding: 0px;
     }
     #contact {
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -253,7 +253,7 @@ hr {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: bottom center;
         background-attachment: fixed;
         background-size: cover;
@@ -356,7 +356,7 @@ hr {
     #banner {
       text-align: center;
       padding: 0 0 1px 0;
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -376,7 +376,7 @@ hr {
       padding: 0px;
     }
     #contact {
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -403,7 +403,7 @@ hr {
 
 @media (min-width: 768px) and (max-width: 991px) {
     #home {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: bottom center;
         background-attachment: fixed;
         background-size: cover;
@@ -509,7 +509,7 @@ hr {
     #banner {
       text-align: center;
       padding: 0 0 1px 0;
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -529,7 +529,7 @@ hr {
       padding: 0px;
     }
     #contact {
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -561,7 +561,7 @@ hr {
 
 @media (min-width: 576px) and (max-width: 767px) {
     #home {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: bottom center;
         background-attachment: fixed;
         background-size: cover;
@@ -675,7 +675,7 @@ hr {
     #banner {
       text-align: center;
       padding: 0 0 1px 0;
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -695,7 +695,7 @@ hr {
       padding: 0px;
     }
     #contact {
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -727,7 +727,7 @@ hr {
 
 @media (min-width: 375px) and (max-width: 575px) {
     #home {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: bottom center;
         background-attachment: fixed;
         background-size: cover;
@@ -751,7 +751,7 @@ hr {
         padding-bottom: 50px; 
     }
     #operation {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: bottom center;
         background-attachment: fixed;
         background-size: cover;
@@ -854,7 +854,7 @@ hr {
     #banner {
       text-align: center;
       padding: 0 0 1px 0;
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -874,7 +874,7 @@ hr {
       padding: 0px;
     }
     #contact {
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -902,7 +902,7 @@ hr {
 
 @media (max-width: 374px) {
     #home {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: top center;
         background-attachment: fixed;
         background-size: 1000px auto;
@@ -925,7 +925,7 @@ hr {
         padding-bottom: 50px; 
     }
     #operation {
-        background-image: url('../img/bg-1.png');
+        background-image: url('../img/bg-1.jpg');
         background-position: top center;
         background-attachment: fixed;
         background-size: 1000px;
@@ -1033,7 +1033,7 @@ hr {
     #banner {
       text-align: center;
       padding: 0 0 1px 0;
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
@@ -1053,7 +1053,7 @@ hr {
       padding: 0px;
     }
     #contact {
-      background-image: url('../img/bg-1.png');
+      background-image: url('../img/bg-1.jpg');
       background-position: bottom center;
       background-attachment: fixed;
       background-size: cover;
