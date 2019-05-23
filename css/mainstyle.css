@@ -903,9 +903,9 @@ hr {
 @media (max-width: 374px) {
     #home {
         background-image: url('../img/bg-1.png');
-        background-position: center center;
+        background-position: top center;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 1500px auto;
         background-repeat: no-repeat;
         color: #231f20;
         margin-top: 0;
@@ -926,9 +926,9 @@ hr {
     }
     #operation {
         background-image: url('../img/bg-1.png');
-        background-position: bottom center;
+        background-position: top center;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 1500px;
         background-repeat: no-repeat;
         height: auto;
         padding-top: 30px;
