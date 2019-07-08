@@ -187,8 +187,10 @@ hr {
       margin: 0;
     }
     #executive #members img {
-      max-width: 200px;
+      max-width: 300px;
+      border-radius: 100%;
       padding: 40px;
+
     }
     #brands {
       background-color: #fff;
@@ -337,7 +339,8 @@ hr {
       margin: 0;
     }
     #executive #members img {
-      max-width: 200px;
+      max-width: 230px;
+      border-radius: 100%;
       padding: 40px;
     }
     #brands {
@@ -490,7 +493,8 @@ hr {
       margin: 0;
     }
     #executive #members img {
-      max-width: 200px;
+      max-width: 230px;
+      border-radius: 100%;
       padding: 40px;
     }
     #brands {
@@ -655,7 +659,8 @@ hr {
       margin: 0;
     }
     #executive #members img {
-      max-width: 200px;
+      max-width: 230px;
+      border-radius: 100%;
       padding: 40px;
     }
     #brands {
@@ -834,7 +839,8 @@ hr {
       margin: 0;
     }
     #executive #members img {
-      max-width: 200px;
+      max-width: 230px;
+      border-radius: 100%;
       padding: 40px;
     }
     #brands {
@@ -1013,7 +1019,8 @@ hr {
       margin: 0;
     }
     #executive #members img {
-      max-width: 200px;
+      max-width: 230px;
+      border-radius: 100%;
       padding: 40px;
     }
     #brands {
