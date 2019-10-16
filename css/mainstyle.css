@@ -17,7 +17,7 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lato', sans-serif;
     color: #ff0000;
 }
 
@@ -125,7 +125,8 @@ hr {
         font-size: 4em;
         font-family: 'Lato', sans-serif;
         color: #231f20;
-        margin-bottom: 90px;
+        text-align: center;
+        /* margin-bottom: 90px; */
         line-height: 1.5;
     }
     #operation #text p {
@@ -554,7 +555,7 @@ hr {
       font-family: 'Lato', sans-serif;
     }
     #contact a:hover {
-      color:#fff; 
+      color:#fff;
       font-size: 3em;
       font-family: 'Lato', sans-serif;
     }
@@ -721,7 +722,7 @@ hr {
       font-family: 'Lato', sans-serif;
     }
     #contact a:hover {
-      color:#fff; 
+      color:#fff;
       font-size: 2em;
       font-family: 'Lato', sans-serif;
     }
@@ -753,7 +754,7 @@ hr {
     }
     #operation #text {
         margin: 0;
-        padding-bottom: 50px; 
+        padding-bottom: 50px;
     }
     #operation {
         background-image: url('../img/bg-1.jpg');
@@ -928,7 +929,7 @@ hr {
     }
     #operation #text {
         margin: 0;
-        padding-bottom: 50px; 
+        padding-bottom: 50px;
     }
     #operation {
         background-image: url('../img/bg-1.jpg');
