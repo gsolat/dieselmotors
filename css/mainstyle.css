@@ -6,7 +6,7 @@ body {
     position: relative;
     width: 100%;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 21px;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -386,7 +386,7 @@ hr {
       max-width: 150px;
     }
     #contacto a {
-      font-size: 3em;
+      font-size: inherit;
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -583,7 +583,7 @@ hr {
       max-width: 150px;
     }
     #contacto a {
-      font-size: 3em;
+/*      font-size: 3em;*/
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -779,7 +779,7 @@ hr {
       max-width: 150px;
     }
     #contacto a {
-      font-size: 3em;
+/*      font-size: 3em;*/
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -975,7 +975,7 @@ hr {
       max-width: 150px;
     }
     #contacto a {
-      font-size: 3em;
+/*      font-size: 3em;*/
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -1190,7 +1190,7 @@ hr {
       max-width: 50px;
     }
     #contacto a {
-      font-size: 1.3em;
+/*      font-size: 1.3em;*/
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -1405,7 +1405,7 @@ hr {
       max-width: 50px;
     }
     #contacto a {
-      font-size: 1.1    em;
+/*      font-size: 1.1    em;*/
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
