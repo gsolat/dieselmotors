@@ -382,16 +382,23 @@ hr {
       color: #fff;
     }
     #contacto .text img {
-      padding-top: 25px;
+      padding-top: 15px;
       max-width: 150px;
     }
     #contacto a {
-/*      font-size: inherit;*/
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
+      font-size: 1.2em;
       font-family: 'Lato', sans-serif;
     }
-    #contacto p {
-      margin-top: 1rem;
+    #contacto a:hover {
+      color: #ff0000;
+      background-color: #fff;
     }
+    /*#contacto p {
+      margin-top: 1rem;
+    }*/
 }
 
 
@@ -583,7 +590,9 @@ hr {
       max-width: 150px;
     }
     #contacto a {
-/*      font-size: 3em;*/
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -780,6 +789,9 @@ hr {
     }
     #contacto a {
 /*      font-size: 3em;*/
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -976,6 +988,9 @@ hr {
     }
     #contacto a {
       font-size: 1em;
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -1182,7 +1197,7 @@ hr {
       text-align: center;
     }
     #contacto .text {
-      padding-top: 40vh;
+      padding-top: 30vh;
       color: #fff;
     }
     #contacto .text img {
@@ -1191,6 +1206,9 @@ hr {
     }
     #contacto a {
 /*      font-size: 1.3em;*/
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
@@ -1406,6 +1424,9 @@ hr {
     }
     #contacto a {
 /*      font-size: 1.1    em;*/
+      color: #fff;
+      padding: 3px 8px;
+      background-color: #ff0000;
       font-family: 'Lato', sans-serif;
     }
     #contacto p {
